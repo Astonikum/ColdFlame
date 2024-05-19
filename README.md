@@ -2,7 +2,7 @@
 # ColdFlame
 Official Unity-project of ColdFlame
 # Информация о проекте
-**Версия Unity:**</b>
+**Версия Unity:**
 **Язык:** RU
 # Правила для разработчиков
 ## 1. Git-Hub
