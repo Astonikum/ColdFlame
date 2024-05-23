@@ -13,16 +13,6 @@ using System.IO;
 public class ControlsData : MonoBehaviour
 {
     [SerializeField] public Control[] controls;
-
-    void Start()
-    {
-
-    }
-
-    void Update()
-    {
-
-    }
 }
 
 [Serializable]
