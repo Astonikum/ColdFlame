@@ -15,7 +15,7 @@ D:/GitHub/ColdFlame
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57361
+55959
 Successfully changed project path to: D:/GitHub/ColdFlame
 D:/GitHub/ColdFlame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/GitHub/ColdFlame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21456] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 3201194926 [EditorId] 3201194926 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-315VLNU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [30664] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 3126627373 [EditorId] 3126627373 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-315VLNU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21456] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 3201194926 [EditorId] 3201194926 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-315VLNU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30664] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 3126627373 [EditorId] 3126627373 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-315VLNU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 11.88 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.67 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.29f1 (8d510ca76d2b)
 [Subsystems] Discovering subsystems at path D:/2022.3.29f1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'D:/2022.3.29f1/Editor/Data/Managed'
 Mono path[1] = 'D:/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/2022.3.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/2022.3.29f1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
 Register platform support module: D:/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003618 seconds.
-- Loaded All Assemblies, in  0.373 seconds
+Registered in 0.003117 seconds.
+- Loaded All Assemblies, in  0.306 seconds
 Native extension for WindowsStandalone target not found
 Failed to load: D:/2022.3.29f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
 Native extension for VisionOS target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.215 seconds
-Domain Reload Profiling: 589ms
-	BeginReloadAssembly (127ms)
+- Finished resetting the current domain, in  0.252 seconds
+Domain Reload Profiling: 559ms
+	BeginReloadAssembly (85ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (128ms)
-		LoadAssemblies (126ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (135ms)
+		LoadAssemblies (85ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (127ms)
-			TypeCache.Refresh (125ms)
-				TypeCache.ScanAssembly (113ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (122ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (216ms)
+	FinalizeReload (253ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (172ms)
+		SetupLoadedEditorAssemblies (201ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (115ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
+			ProcessInitializeOnLoadAttributes (133ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +120,9 @@ Domain Reload Profiling: 589ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.967 seconds
-Refreshing native plugins compatible for Editor in 1.80 ms, found 4 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.509 seconds
+Refreshing native plugins compatible for Editor in 2.60 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Failed to load: D:/2022.3.29f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
 Native extension for VisionOS target not found
@@ -131,254 +132,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.591 seconds
-Domain Reload Profiling: 2559ms
-	BeginReloadAssembly (107ms)
+- Finished resetting the current domain, in  0.515 seconds
+Domain Reload Profiling: 1024ms
+	BeginReloadAssembly (123ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (1796ms)
-		LoadAssemblies (1703ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (245ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (155ms)
-			TypeCache.Refresh (135ms)
-				TypeCache.ScanAssembly (124ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (592ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (110ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (515ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (467ms)
+		SetupLoadedEditorAssemblies (382ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
+			InitializePlatformSupportModulesInManaged (15ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (108ms)
-			ProcessInitializeOnLoadAttributes (307ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (281ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.72 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.31 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4035 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (245.9 KB). Loaded Objects now: 4489.
-Memory consumption went from 142.5 MB to 142.3 MB.
-Total: 2.949900 ms (FindLiveObjects: 0.180100 ms CreateObjectMapping: 0.266000 ms MarkObjects: 2.351200 ms  DeleteObjects: 0.151900 ms)
+Unloading 4121 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 83 unused Assets / (252.2 KB). Loaded Objects now: 4566.
+Memory consumption went from 144.0 MB to 143.7 MB.
+Total: 2.563900 ms (FindLiveObjects: 0.200100 ms CreateObjectMapping: 0.090100 ms MarkObjects: 2.101200 ms  DeleteObjects: 0.171700 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.378 seconds
-Refreshing native plugins compatible for Editor in 2.89 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Failed to load: D:/2022.3.29f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
-Native extension for VisionOS target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.792 seconds
-Domain Reload Profiling: 1170ms
-	BeginReloadAssembly (137ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (166ms)
-		LoadAssemblies (219ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (793ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (357ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (250ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 1.81 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4030 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (217.7 KB). Loaded Objects now: 4494.
-Memory consumption went from 141.2 MB to 140.9 MB.
-Total: 2.481000 ms (FindLiveObjects: 0.179600 ms CreateObjectMapping: 0.088500 ms MarkObjects: 2.083300 ms  DeleteObjects: 0.128500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.424 seconds
-Refreshing native plugins compatible for Editor in 2.36 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Failed to load: D:/2022.3.29f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
-Native extension for VisionOS target not found
-Native extension for WebGL target not found
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.862 seconds
-Domain Reload Profiling: 1286ms
-	BeginReloadAssembly (130ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (224ms)
-		LoadAssemblies (272ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (9ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (863ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (555ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (450ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 2.13 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4114 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (222.6 KB). Loaded Objects now: 4573.
-Memory consumption went from 142.9 MB to 142.7 MB.
-Total: 3.240900 ms (FindLiveObjects: 0.223200 ms CreateObjectMapping: 0.115600 ms MarkObjects: 2.706100 ms  DeleteObjects: 0.194900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.544 seconds
-Refreshing native plugins compatible for Editor in 4.48 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Failed to load: D:/2022.3.29f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
-Native extension for VisionOS target not found
-Native extension for WebGL target not found
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.783 seconds
-Domain Reload Profiling: 1327ms
-	BeginReloadAssembly (162ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (304ms)
-		LoadAssemblies (268ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (120ms)
-			TypeCache.Refresh (93ms)
-				TypeCache.ScanAssembly (83ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (784ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (383ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (266ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 2.73 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4114 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (222.4 KB). Loaded Objects now: 4577.
-Memory consumption went from 142.9 MB to 142.7 MB.
-Total: 2.415900 ms (FindLiveObjects: 0.176100 ms CreateObjectMapping: 0.088600 ms MarkObjects: 1.997600 ms  DeleteObjects: 0.153000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -396,8 +191,8 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.414 seconds
-Refreshing native plugins compatible for Editor in 2.13 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.348 seconds
+Refreshing native plugins compatible for Editor in 2.54 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Failed to load: D:/2022.3.29f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
 Native extension for VisionOS target not found
@@ -407,45 +202,45 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.597 seconds
-Domain Reload Profiling: 1012ms
-	BeginReloadAssembly (121ms)
+Domain Reload Profiling: 945ms
+	BeginReloadAssembly (132ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (27ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (238ms)
-		LoadAssemblies (214ms)
+	LoadAllAssembliesAndSetupDomain (163ms)
+		LoadAssemblies (211ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (83ms)
-			TypeCache.Refresh (67ms)
-				TypeCache.ScanAssembly (57ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
-			ResolveRequiredComponents (4ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (5ms)
 	FinalizeReload (598ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (300ms)
+		SetupLoadedEditorAssemblies (307ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (209ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 1.99 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.51 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4115 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 54 unused Assets / (223.3 KB). Loaded Objects now: 4581.
-Memory consumption went from 143.1 MB to 142.9 MB.
-Total: 2.268700 ms (FindLiveObjects: 0.171200 ms CreateObjectMapping: 0.087200 ms MarkObjects: 1.876200 ms  DeleteObjects: 0.133100 ms)
+Unloading 4117 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (224.0 KB). Loaded Objects now: 4572.
+Memory consumption went from 142.6 MB to 142.4 MB.
+Total: 2.304200 ms (FindLiveObjects: 0.185200 ms CreateObjectMapping: 0.094100 ms MarkObjects: 1.869700 ms  DeleteObjects: 0.154300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -465,8 +260,8 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.487 seconds
-Refreshing native plugins compatible for Editor in 2.21 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.342 seconds
+Refreshing native plugins compatible for Editor in 3.30 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Failed to load: D:/2022.3.29f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
 Native extension for VisionOS target not found
@@ -474,60 +269,116 @@ Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-Mirror | mirror-networking.com | discord.gg/N9QVxbM
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Mirror.Welcome:OnInitializeOnLoad () (at Assets/Mirror/Editor/Welcome.cs:18)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Mirror/Editor/Welcome.cs Line: 18)
-
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.748 seconds
-Domain Reload Profiling: 1235ms
-	BeginReloadAssembly (134ms)
+- Finished resetting the current domain, in  0.666 seconds
+Domain Reload Profiling: 1007ms
+	BeginReloadAssembly (117ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
+		CreateAndSetChildDomain (28ms)
 	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (294ms)
-		LoadAssemblies (255ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (204ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (109ms)
-			TypeCache.Refresh (87ms)
-				TypeCache.ScanAssembly (75ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (748ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (666ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (460ms)
+		SetupLoadedEditorAssemblies (325ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (225.4 KB). Loaded Objects now: 4575.
+Memory consumption went from 142.6 MB to 142.4 MB.
+Total: 2.156800 ms (FindLiveObjects: 0.160800 ms CreateObjectMapping: 0.082900 ms MarkObjects: 1.781200 ms  DeleteObjects: 0.131200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.343 seconds
+Refreshing native plugins compatible for Editor in 2.24 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Failed to load: D:/2022.3.29f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.663 seconds
+Domain Reload Profiling: 1006ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (205ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (664ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (343ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (14ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (352ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 2.33 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.97 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4599 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (0.9 MB). Loaded Objects now: 5062.
-Memory consumption went from 154.8 MB to 153.9 MB.
-Total: 3.612800 ms (FindLiveObjects: 0.199100 ms CreateObjectMapping: 0.120300 ms MarkObjects: 2.845600 ms  DeleteObjects: 0.446900 ms)
+Unloading 4117 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (225.2 KB). Loaded Objects now: 4580.
+Memory consumption went from 142.7 MB to 142.4 MB.
+Total: 2.502000 ms (FindLiveObjects: 0.200700 ms CreateObjectMapping: 0.130900 ms MarkObjects: 2.020700 ms  DeleteObjects: 0.148900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -544,355 +395,67 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.561 seconds
-Refreshing native plugins compatible for Editor in 3.50 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Failed to load: D:/2022.3.29f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
-Native extension for VisionOS target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.674 seconds
-Domain Reload Profiling: 1235ms
-	BeginReloadAssembly (146ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (339ms)
-		LoadAssemblies (282ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (133ms)
-			TypeCache.Refresh (102ms)
-				TypeCache.ScanAssembly (91ms)
-			ScanForSourceGeneratedMonoScriptInfo (23ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (675ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (362ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (251ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 3.59 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4599 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (0.9 MB). Loaded Objects now: 5066.
-Memory consumption went from 154.8 MB to 153.9 MB.
-Total: 2.655800 ms (FindLiveObjects: 0.193900 ms CreateObjectMapping: 0.101300 ms MarkObjects: 1.955100 ms  DeleteObjects: 0.404400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 352778.316663 seconds.
+  path: Assets/Scripts/BindsData.cs
+  artifactKey: Guid(f914a3d14fea06e42ae3f6518dcfcd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BindsData.cs using Guid(f914a3d14fea06e42ae3f6518dcfcd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc448c548afdd9839cdee3605bd798b') in 0.002350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
-Assembly with name 'Telepathy' already exists (Assets/Packages/Mirror/Transports/Telepathy/Telepathy/Telepathy.asmdef)
-Assembly with name 'Telepathy' already exists (Assets/Mirror/Transports/Telepathy/Telepathy/Telepathy.asmdef)
-Assembly with name 'Mirror.Editor' already exists (Assets/Packages/Mirror/Editor/Mirror.Editor.asmdef)
-Assembly with name 'Mirror.Editor' already exists (Assets/Mirror/Editor/Mirror.Editor.asmdef)
-Assembly with name 'EncryptionTransportEditor' already exists (Assets/Mirror/Transports/Encryption/Editor/EncryptionTransportEditor.asmdef)
-Assembly with name 'EncryptionTransportEditor' already exists (Assets/Packages/Mirror/Transports/Encryption/Editor/EncryptionTransportEditor.asmdef)
-Assembly with name 'Mirror.Examples' already exists (Assets/Packages/Mirror/Examples/Mirror.Examples.asmdef)
-Assembly with name 'Mirror.Examples' already exists (Assets/Mirror/Examples/Mirror.Examples.asmdef)
-Assembly with name 'Mirror' already exists (Assets/Mirror/Core/Mirror.asmdef)
-Assembly with name 'Mirror' already exists (Assets/Packages/Mirror/Core/Mirror.asmdef)
-Assembly with name 'Mirror.Components' already exists (Assets/Mirror/Components/Mirror.Components.asmdef)
-Assembly with name 'Mirror.Components' already exists (Assets/Packages/Mirror/Components/Mirror.Components.asmdef)
-Assembly with name 'Unity.Mirror.CodeGen' already exists (Assets/Mirror/Editor/Weaver/Unity.Mirror.CodeGen.asmdef)
-Assembly with name 'Unity.Mirror.CodeGen' already exists (Assets/Packages/Mirror/Editor/Weaver/Unity.Mirror.CodeGen.asmdef)
-Assembly with name 'kcp2k' already exists (Assets/Packages/Mirror/Transports/KCP/kcp2k/KCP.asmdef)
-Assembly with name 'kcp2k' already exists (Assets/Mirror/Transports/KCP/kcp2k/KCP.asmdef)
-Assembly with name 'SimpleWebTransport' already exists (Assets/Mirror/Transports/SimpleWeb/SimpleWeb/SimpleWebTransport.asmdef)
-Assembly with name 'SimpleWebTransport' already exists (Assets/Packages/Mirror/Transports/SimpleWeb/SimpleWeb/SimpleWebTransport.asmdef)
-Assembly with name 'Mirror.CompilerSymbols' already exists (Assets/Mirror/CompilerSymbols/Mirror.CompilerSymbols.asmdef)
-Assembly with name 'Mirror.CompilerSymbols' already exists (Assets/Packages/Mirror/CompilerSymbols/Mirror.CompilerSymbols.asmdef)
-Assembly with name 'Mirror.Authenticators' already exists (Assets/Mirror/Authenticators/Mirror.Authenticators.asmdef)
-Assembly with name 'Mirror.Authenticators' already exists (Assets/Packages/Mirror/Authenticators/Mirror.Authenticators.asmdef)
-Assembly with name 'Mirror.Transports' already exists (Assets/Packages/Mirror/Transports/Mirror.Transports.asmdef)
-Assembly with name 'Mirror.Transports' already exists (Assets/Mirror/Transports/Mirror.Transports.asmdef)
-Assembly with name 'Mirror.Hosting' already exists (Assets/Mirror/Hosting/Mirror.Hosting.asmdef)
-Assembly with name 'Mirror.Hosting' already exists (Assets/Packages/Mirror/Hosting/Mirror.Hosting.asmdef)
-Assembly with name 'Telepathy' already exists (Assets/Packages/Mirror/Transports/Telepathy/Telepathy/Telepathy.asmdef)
-Assembly with name 'Telepathy' already exists (Assets/Mirror/Transports/Telepathy/Telepathy/Telepathy.asmdef)
-Assembly with name 'Mirror.Editor' already exists (Assets/Packages/Mirror/Editor/Mirror.Editor.asmdef)
-Assembly with name 'Mirror.Editor' already exists (Assets/Mirror/Editor/Mirror.Editor.asmdef)
-Assembly with name 'EncryptionTransportEditor' already exists (Assets/Mirror/Transports/Encryption/Editor/EncryptionTransportEditor.asmdef)
-Assembly with name 'EncryptionTransportEditor' already exists (Assets/Packages/Mirror/Transports/Encryption/Editor/EncryptionTransportEditor.asmdef)
-Assembly with name 'Mirror.Examples' already exists (Assets/Packages/Mirror/Examples/Mirror.Examples.asmdef)
-Assembly with name 'Mirror.Examples' already exists (Assets/Mirror/Examples/Mirror.Examples.asmdef)
-Assembly with name 'Mirror' already exists (Assets/Mirror/Core/Mirror.asmdef)
-Assembly with name 'Mirror' already exists (Assets/Packages/Mirror/Core/Mirror.asmdef)
-Assembly with name 'Mirror.Components' already exists (Assets/Mirror/Components/Mirror.Components.asmdef)
-Assembly with name 'Mirror.Components' already exists (Assets/Packages/Mirror/Components/Mirror.Components.asmdef)
-Assembly with name 'Unity.Mirror.CodeGen' already exists (Assets/Mirror/Editor/Weaver/Unity.Mirror.CodeGen.asmdef)
-Assembly with name 'Unity.Mirror.CodeGen' already exists (Assets/Packages/Mirror/Editor/Weaver/Unity.Mirror.CodeGen.asmdef)
-Assembly with name 'kcp2k' already exists (Assets/Packages/Mirror/Transports/KCP/kcp2k/KCP.asmdef)
-Assembly with name 'kcp2k' already exists (Assets/Mirror/Transports/KCP/kcp2k/KCP.asmdef)
-Assembly with name 'SimpleWebTransport' already exists (Assets/Mirror/Transports/SimpleWeb/SimpleWeb/SimpleWebTransport.asmdef)
-Assembly with name 'SimpleWebTransport' already exists (Assets/Packages/Mirror/Transports/SimpleWeb/SimpleWeb/SimpleWebTransport.asmdef)
-Assembly with name 'Mirror.CompilerSymbols' already exists (Assets/Mirror/CompilerSymbols/Mirror.CompilerSymbols.asmdef)
-Assembly with name 'Mirror.CompilerSymbols' already exists (Assets/Packages/Mirror/CompilerSymbols/Mirror.CompilerSymbols.asmdef)
-Assembly with name 'Mirror.Authenticators' already exists (Assets/Mirror/Authenticators/Mirror.Authenticators.asmdef)
-Assembly with name 'Mirror.Authenticators' already exists (Assets/Packages/Mirror/Authenticators/Mirror.Authenticators.asmdef)
-Assembly with name 'Mirror.Transports' already exists (Assets/Packages/Mirror/Transports/Mirror.Transports.asmdef)
-Assembly with name 'Mirror.Transports' already exists (Assets/Mirror/Transports/Mirror.Transports.asmdef)
-Assembly with name 'Mirror.Hosting' already exists (Assets/Mirror/Hosting/Mirror.Hosting.asmdef)
-Assembly with name 'Mirror.Hosting' already exists (Assets/Packages/Mirror/Hosting/Mirror.Hosting.asmdef)
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.388 seconds
-Refreshing native plugins compatible for Editor in 2.46 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.357 seconds
+Refreshing native plugins compatible for Editor in 2.44 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Failed to load: D:/2022.3.29f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
 Native extension for VisionOS target not found
 Native extension for WebGL target not found
-Assembly with name 'Telepathy' already exists (Assets/Packages/Mirror/Transports/Telepathy/Telepathy/Telepathy.asmdef)
-Assembly with name 'Telepathy' already exists (Assets/Mirror/Transports/Telepathy/Telepathy/Telepathy.asmdef)
-Assembly with name 'Mirror.Editor' already exists (Assets/Packages/Mirror/Editor/Mirror.Editor.asmdef)
-Assembly with name 'Mirror.Editor' already exists (Assets/Mirror/Editor/Mirror.Editor.asmdef)
-Assembly with name 'EncryptionTransportEditor' already exists (Assets/Mirror/Transports/Encryption/Editor/EncryptionTransportEditor.asmdef)
-Assembly with name 'EncryptionTransportEditor' already exists (Assets/Packages/Mirror/Transports/Encryption/Editor/EncryptionTransportEditor.asmdef)
-Assembly with name 'Mirror.Examples' already exists (Assets/Packages/Mirror/Examples/Mirror.Examples.asmdef)
-Assembly with name 'Mirror.Examples' already exists (Assets/Mirror/Examples/Mirror.Examples.asmdef)
-Assembly with name 'Mirror' already exists (Assets/Mirror/Core/Mirror.asmdef)
-Assembly with name 'Mirror' already exists (Assets/Packages/Mirror/Core/Mirror.asmdef)
-Assembly with name 'Mirror.Components' already exists (Assets/Mirror/Components/Mirror.Components.asmdef)
-Assembly with name 'Mirror.Components' already exists (Assets/Packages/Mirror/Components/Mirror.Components.asmdef)
-Assembly with name 'Unity.Mirror.CodeGen' already exists (Assets/Mirror/Editor/Weaver/Unity.Mirror.CodeGen.asmdef)
-Assembly with name 'Unity.Mirror.CodeGen' already exists (Assets/Packages/Mirror/Editor/Weaver/Unity.Mirror.CodeGen.asmdef)
-Assembly with name 'kcp2k' already exists (Assets/Packages/Mirror/Transports/KCP/kcp2k/KCP.asmdef)
-Assembly with name 'kcp2k' already exists (Assets/Mirror/Transports/KCP/kcp2k/KCP.asmdef)
-Assembly with name 'SimpleWebTransport' already exists (Assets/Mirror/Transports/SimpleWeb/SimpleWeb/SimpleWebTransport.asmdef)
-Assembly with name 'SimpleWebTransport' already exists (Assets/Packages/Mirror/Transports/SimpleWeb/SimpleWeb/SimpleWebTransport.asmdef)
-Assembly with name 'Mirror.CompilerSymbols' already exists (Assets/Mirror/CompilerSymbols/Mirror.CompilerSymbols.asmdef)
-Assembly with name 'Mirror.CompilerSymbols' already exists (Assets/Packages/Mirror/CompilerSymbols/Mirror.CompilerSymbols.asmdef)
-Assembly with name 'Mirror.Authenticators' already exists (Assets/Mirror/Authenticators/Mirror.Authenticators.asmdef)
-Assembly with name 'Mirror.Authenticators' already exists (Assets/Packages/Mirror/Authenticators/Mirror.Authenticators.asmdef)
-Assembly with name 'Mirror.Transports' already exists (Assets/Packages/Mirror/Transports/Mirror.Transports.asmdef)
-Assembly with name 'Mirror.Transports' already exists (Assets/Mirror/Transports/Mirror.Transports.asmdef)
-Assembly with name 'Mirror.Hosting' already exists (Assets/Mirror/Hosting/Mirror.Hosting.asmdef)
-Assembly with name 'Mirror.Hosting' already exists (Assets/Packages/Mirror/Hosting/Mirror.Hosting.asmdef)
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.679 seconds
-Domain Reload Profiling: 1068ms
-	BeginReloadAssembly (136ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (200ms)
-		LoadAssemblies (233ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (33ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (7ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (680ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (344ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (230ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 3.21 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4599 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (0.9 MB). Loaded Objects now: 5070.
-Memory consumption went from 155.7 MB to 154.8 MB.
-Total: 2.672100 ms (FindLiveObjects: 0.187600 ms CreateObjectMapping: 0.097800 ms MarkObjects: 2.057900 ms  DeleteObjects: 0.327800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Assembly with name 'Telepathy' already exists (Assets/Packages/Mirror/Transports/Telepathy/Telepathy/Telepathy.asmdef)
-Assembly with name 'Telepathy' already exists (Assets/Mirror/Transports/Telepathy/Telepathy/Telepathy.asmdef)
-Assembly with name 'Mirror.Editor' already exists (Assets/Packages/Mirror/Editor/Mirror.Editor.asmdef)
-Assembly with name 'Mirror.Editor' already exists (Assets/Mirror/Editor/Mirror.Editor.asmdef)
-Assembly with name 'EncryptionTransportEditor' already exists (Assets/Mirror/Transports/Encryption/Editor/EncryptionTransportEditor.asmdef)
-Assembly with name 'EncryptionTransportEditor' already exists (Assets/Packages/Mirror/Transports/Encryption/Editor/EncryptionTransportEditor.asmdef)
-Assembly with name 'Mirror.Examples' already exists (Assets/Packages/Mirror/Examples/Mirror.Examples.asmdef)
-Assembly with name 'Mirror.Examples' already exists (Assets/Mirror/Examples/Mirror.Examples.asmdef)
-Assembly with name 'Mirror' already exists (Assets/Mirror/Core/Mirror.asmdef)
-Assembly with name 'Mirror' already exists (Assets/Packages/Mirror/Core/Mirror.asmdef)
-Assembly with name 'Mirror.Components' already exists (Assets/Mirror/Components/Mirror.Components.asmdef)
-Assembly with name 'Mirror.Components' already exists (Assets/Packages/Mirror/Components/Mirror.Components.asmdef)
-Assembly with name 'Unity.Mirror.CodeGen' already exists (Assets/Mirror/Editor/Weaver/Unity.Mirror.CodeGen.asmdef)
-Assembly with name 'Unity.Mirror.CodeGen' already exists (Assets/Packages/Mirror/Editor/Weaver/Unity.Mirror.CodeGen.asmdef)
-Assembly with name 'kcp2k' already exists (Assets/Packages/Mirror/Transports/KCP/kcp2k/KCP.asmdef)
-Assembly with name 'kcp2k' already exists (Assets/Mirror/Transports/KCP/kcp2k/KCP.asmdef)
-Assembly with name 'SimpleWebTransport' already exists (Assets/Mirror/Transports/SimpleWeb/SimpleWeb/SimpleWebTransport.asmdef)
-Assembly with name 'SimpleWebTransport' already exists (Assets/Packages/Mirror/Transports/SimpleWeb/SimpleWeb/SimpleWebTransport.asmdef)
-Assembly with name 'Mirror.CompilerSymbols' already exists (Assets/Mirror/CompilerSymbols/Mirror.CompilerSymbols.asmdef)
-Assembly with name 'Mirror.CompilerSymbols' already exists (Assets/Packages/Mirror/CompilerSymbols/Mirror.CompilerSymbols.asmdef)
-Assembly with name 'Mirror.Authenticators' already exists (Assets/Mirror/Authenticators/Mirror.Authenticators.asmdef)
-Assembly with name 'Mirror.Authenticators' already exists (Assets/Packages/Mirror/Authenticators/Mirror.Authenticators.asmdef)
-Assembly with name 'Mirror.Transports' already exists (Assets/Packages/Mirror/Transports/Mirror.Transports.asmdef)
-Assembly with name 'Mirror.Transports' already exists (Assets/Mirror/Transports/Mirror.Transports.asmdef)
-Assembly with name 'Mirror.Hosting' already exists (Assets/Mirror/Hosting/Mirror.Hosting.asmdef)
-Assembly with name 'Mirror.Hosting' already exists (Assets/Packages/Mirror/Hosting/Mirror.Hosting.asmdef)
-Assembly with name 'Telepathy' already exists (Assets/Packages/Mirror/Transports/Telepathy/Telepathy/Telepathy.asmdef)
-Assembly with name 'Telepathy' already exists (Assets/Mirror/Transports/Telepathy/Telepathy/Telepathy.asmdef)
-Assembly with name 'Mirror.Editor' already exists (Assets/Packages/Mirror/Editor/Mirror.Editor.asmdef)
-Assembly with name 'Mirror.Editor' already exists (Assets/Mirror/Editor/Mirror.Editor.asmdef)
-Assembly with name 'EncryptionTransportEditor' already exists (Assets/Mirror/Transports/Encryption/Editor/EncryptionTransportEditor.asmdef)
-Assembly with name 'EncryptionTransportEditor' already exists (Assets/Packages/Mirror/Transports/Encryption/Editor/EncryptionTransportEditor.asmdef)
-Assembly with name 'Mirror.Examples' already exists (Assets/Packages/Mirror/Examples/Mirror.Examples.asmdef)
-Assembly with name 'Mirror.Examples' already exists (Assets/Mirror/Examples/Mirror.Examples.asmdef)
-Assembly with name 'Mirror' already exists (Assets/Mirror/Core/Mirror.asmdef)
-Assembly with name 'Mirror' already exists (Assets/Packages/Mirror/Core/Mirror.asmdef)
-Assembly with name 'Mirror.Components' already exists (Assets/Mirror/Components/Mirror.Components.asmdef)
-Assembly with name 'Mirror.Components' already exists (Assets/Packages/Mirror/Components/Mirror.Components.asmdef)
-Assembly with name 'Unity.Mirror.CodeGen' already exists (Assets/Mirror/Editor/Weaver/Unity.Mirror.CodeGen.asmdef)
-Assembly with name 'Unity.Mirror.CodeGen' already exists (Assets/Packages/Mirror/Editor/Weaver/Unity.Mirror.CodeGen.asmdef)
-Assembly with name 'kcp2k' already exists (Assets/Packages/Mirror/Transports/KCP/kcp2k/KCP.asmdef)
-Assembly with name 'kcp2k' already exists (Assets/Mirror/Transports/KCP/kcp2k/KCP.asmdef)
-Assembly with name 'SimpleWebTransport' already exists (Assets/Mirror/Transports/SimpleWeb/SimpleWeb/SimpleWebTransport.asmdef)
-Assembly with name 'SimpleWebTransport' already exists (Assets/Packages/Mirror/Transports/SimpleWeb/SimpleWeb/SimpleWebTransport.asmdef)
-Assembly with name 'Mirror.CompilerSymbols' already exists (Assets/Mirror/CompilerSymbols/Mirror.CompilerSymbols.asmdef)
-Assembly with name 'Mirror.CompilerSymbols' already exists (Assets/Packages/Mirror/CompilerSymbols/Mirror.CompilerSymbols.asmdef)
-Assembly with name 'Mirror.Authenticators' already exists (Assets/Mirror/Authenticators/Mirror.Authenticators.asmdef)
-Assembly with name 'Mirror.Authenticators' already exists (Assets/Packages/Mirror/Authenticators/Mirror.Authenticators.asmdef)
-Assembly with name 'Mirror.Transports' already exists (Assets/Packages/Mirror/Transports/Mirror.Transports.asmdef)
-Assembly with name 'Mirror.Transports' already exists (Assets/Mirror/Transports/Mirror.Transports.asmdef)
-Assembly with name 'Mirror.Hosting' already exists (Assets/Mirror/Hosting/Mirror.Hosting.asmdef)
-Assembly with name 'Mirror.Hosting' already exists (Assets/Packages/Mirror/Hosting/Mirror.Hosting.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.430 seconds
-Refreshing native plugins compatible for Editor in 3.46 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Failed to load: D:/2022.3.29f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
-Native extension for VisionOS target not found
-Native extension for WebGL target not found
-Assembly with name 'Telepathy' already exists (Assets/Packages/Mirror/Transports/Telepathy/Telepathy/Telepathy.asmdef)
-Assembly with name 'Telepathy' already exists (Assets/Mirror/Transports/Telepathy/Telepathy/Telepathy.asmdef)
-Assembly with name 'Mirror.Editor' already exists (Assets/Packages/Mirror/Editor/Mirror.Editor.asmdef)
-Assembly with name 'Mirror.Editor' already exists (Assets/Mirror/Editor/Mirror.Editor.asmdef)
-Assembly with name 'EncryptionTransportEditor' already exists (Assets/Mirror/Transports/Encryption/Editor/EncryptionTransportEditor.asmdef)
-Assembly with name 'EncryptionTransportEditor' already exists (Assets/Packages/Mirror/Transports/Encryption/Editor/EncryptionTransportEditor.asmdef)
-Assembly with name 'Mirror.Examples' already exists (Assets/Packages/Mirror/Examples/Mirror.Examples.asmdef)
-Assembly with name 'Mirror.Examples' already exists (Assets/Mirror/Examples/Mirror.Examples.asmdef)
-Assembly with name 'Mirror' already exists (Assets/Mirror/Core/Mirror.asmdef)
-Assembly with name 'Mirror' already exists (Assets/Packages/Mirror/Core/Mirror.asmdef)
-Assembly with name 'Mirror.Components' already exists (Assets/Mirror/Components/Mirror.Components.asmdef)
-Assembly with name 'Mirror.Components' already exists (Assets/Packages/Mirror/Components/Mirror.Components.asmdef)
-Assembly with name 'Unity.Mirror.CodeGen' already exists (Assets/Mirror/Editor/Weaver/Unity.Mirror.CodeGen.asmdef)
-Assembly with name 'Unity.Mirror.CodeGen' already exists (Assets/Packages/Mirror/Editor/Weaver/Unity.Mirror.CodeGen.asmdef)
-Assembly with name 'kcp2k' already exists (Assets/Packages/Mirror/Transports/KCP/kcp2k/KCP.asmdef)
-Assembly with name 'kcp2k' already exists (Assets/Mirror/Transports/KCP/kcp2k/KCP.asmdef)
-Assembly with name 'SimpleWebTransport' already exists (Assets/Mirror/Transports/SimpleWeb/SimpleWeb/SimpleWebTransport.asmdef)
-Assembly with name 'SimpleWebTransport' already exists (Assets/Packages/Mirror/Transports/SimpleWeb/SimpleWeb/SimpleWebTransport.asmdef)
-Assembly with name 'Mirror.CompilerSymbols' already exists (Assets/Mirror/CompilerSymbols/Mirror.CompilerSymbols.asmdef)
-Assembly with name 'Mirror.CompilerSymbols' already exists (Assets/Packages/Mirror/CompilerSymbols/Mirror.CompilerSymbols.asmdef)
-Assembly with name 'Mirror.Authenticators' already exists (Assets/Mirror/Authenticators/Mirror.Authenticators.asmdef)
-Assembly with name 'Mirror.Authenticators' already exists (Assets/Packages/Mirror/Authenticators/Mirror.Authenticators.asmdef)
-Assembly with name 'Mirror.Transports' already exists (Assets/Packages/Mirror/Transports/Mirror.Transports.asmdef)
-Assembly with name 'Mirror.Transports' already exists (Assets/Mirror/Transports/Mirror.Transports.asmdef)
-Assembly with name 'Mirror.Hosting' already exists (Assets/Mirror/Hosting/Mirror.Hosting.asmdef)
-Assembly with name 'Mirror.Hosting' already exists (Assets/Packages/Mirror/Hosting/Mirror.Hosting.asmdef)
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.694 seconds
-Domain Reload Profiling: 1124ms
-	BeginReloadAssembly (137ms)
+- Finished resetting the current domain, in  0.705 seconds
+Domain Reload Profiling: 1062ms
+	BeginReloadAssembly (130ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (24ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (236ms)
-		LoadAssemblies (206ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (214ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (95ms)
-			TypeCache.Refresh (74ms)
-				TypeCache.ScanAssembly (63ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (694ms)
+	FinalizeReload (705ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (349ms)
+		SetupLoadedEditorAssemblies (346ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
+			InitializePlatformSupportModulesInManaged (13ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (223ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (250ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 3.19 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 2.55 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4115 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 354 unused Assets / (394.5 KB). Loaded Objects now: 4774.
-Memory consumption went from 144.8 MB to 144.4 MB.
-Total: 2.595300 ms (FindLiveObjects: 0.194600 ms CreateObjectMapping: 0.103400 ms MarkObjects: 1.951800 ms  DeleteObjects: 0.344600 ms)
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (225.0 KB). Loaded Objects now: 4584.
+Memory consumption went from 142.4 MB to 142.2 MB.
+Total: 2.508000 ms (FindLiveObjects: 0.200700 ms CreateObjectMapping: 0.101700 ms MarkObjects: 2.046700 ms  DeleteObjects: 0.158000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -910,535 +473,115 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 39092.784665 seconds.
-  path: Assets/Packages/YandexGame/Prefabs/GetPlayerYG.prefab
-  artifactKey: Guid(2ec135cc55d81a047909558246ef6ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/YandexGame/Prefabs/GetPlayerYG.prefab using Guid(2ec135cc55d81a047909558246ef6ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f395048e149336fc6c0955925a0e214') in 0.040275 seconds
+  Time since last request: 293.228122 seconds.
+  path: Assets/Scripts/ControlsData.cs
+  artifactKey: Guid(f914a3d14fea06e42ae3f6518dcfcd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ControlsData.cs using Guid(f914a3d14fea06e42ae3f6518dcfcd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07e1aa449c239ec2d1ecdc561be6620') in 0.001631 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.350 seconds
+Refreshing native plugins compatible for Editor in 4.31 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Failed to load: D:/2022.3.29f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.639 seconds
+Domain Reload Profiling: 989ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (208ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (639ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (319ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (234ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (224.0 KB). Loaded Objects now: 4588.
+Memory consumption went from 142.4 MB to 142.2 MB.
+Total: 2.480200 ms (FindLiveObjects: 0.185500 ms CreateObjectMapping: 0.117600 ms MarkObjects: 2.028800 ms  DeleteObjects: 0.147100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Packages/YandexGame/Prefabs/GraphicsSettings.prefab
-  artifactKey: Guid(96a4c910f8df9c948aecac7088022219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/YandexGame/Prefabs/GraphicsSettings.prefab using Guid(96a4c910f8df9c948aecac7088022219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d267fc76caf54703e95225695a1595') in 0.010514 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 55
-========================================================================
-Received Import Request.
-  Time since last request: 59.287613 seconds.
-  path: Assets/Packages/WebGLTemplates/Notices.txt
-  artifactKey: Guid(c6e5b96899b80174e86c3612027acf21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/WebGLTemplates/Notices.txt using Guid(c6e5b96899b80174e86c3612027acf21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e6016ad5e3e0d72380934e9145097eea') in 0.061949 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/GetPlayerYG.cs
-  artifactKey: Guid(8efe342a0068cf447ac9c18752f70d1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/GetPlayerYG.cs using Guid(8efe342a0068cf447ac9c18752f70d1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'da25adc20df7a61cec0397381bb63c15') in 0.028373 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Packages/YandexGame/WorkingData/SavesYG.cs
-  artifactKey: Guid(7cd05ce482d4bd6469c360b48ca328d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/WorkingData/SavesYG.cs using Guid(7cd05ce482d4bd6469c360b48ca328d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97367dfaefa6bf76979ddc551de57198') in 0.013430 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Leaderboard/LeaderboardYG.cs
-  artifactKey: Guid(423e13a42d313f948a13bcedae13febe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Leaderboard/LeaderboardYG.cs using Guid(423e13a42d313f948a13bcedae13febe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5b000997df7e197ce9ee503be3f0a36e') in 0.010202 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Packages/YandexGame/Example/Scripts/GetPlayerData.cs
-  artifactKey: Guid(5f3580921e3d73a43a9b20e250ba9b55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Example/Scripts/GetPlayerData.cs using Guid(5f3580921e3d73a43a9b20e250ba9b55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '691972e5e9484e5557faf8b0e38474ae') in 0.008423 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Payments/ConsumePurchasesYG.cs
-  artifactKey: Guid(9c66d3ab56cc71745982569cb28c3dc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Payments/ConsumePurchasesYG.cs using Guid(9c66d3ab56cc71745982569cb28c3dc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72eb4095afe7a75889914196b6c187fe') in 0.008186 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Packages/YandexGame/Example/Content/Textures/DebugViewing.png
-  artifactKey: Guid(cdb950438ef0ead45a287822e66f5fa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Example/Content/Textures/DebugViewing.png using Guid(cdb950438ef0ead45a287822e66f5fa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '134576de7e52b44dd46493f4f8098b44') in 0.048147 seconds
+  Time since last request: 393.061245 seconds.
+  path: Assets/Textures/_test/Structures2.png
+  artifactKey: Guid(999a352b86366744e97a4ebc9e6a30ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/_test/Structures2.png using Guid(999a352b86366744e97a4ebc9e6a30ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb4186632923044d0c9b0c07ace0f6f') in 0.090402 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Packages/YandexGame/Prefabs/GraphicsSettings.prefab
-  artifactKey: Guid(96a4c910f8df9c948aecac7088022219) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Prefabs/GraphicsSettings.prefab using Guid(96a4c910f8df9c948aecac7088022219) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd5bd62a99fe54c60f8748a567ad554d4') in 0.036559 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 55
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Packages/YandexGame/Example/Scripts/SaverTest.cs
-  artifactKey: Guid(92f7f975d78c4f74f8d4ebb4c4d715fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Example/Scripts/SaverTest.cs using Guid(92f7f975d78c4f74f8d4ebb4c4d715fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5db6e3f6fcf91f2603422d0723e0413d') in 0.007883 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Payments/PaymentsCatalogYG.cs
-  artifactKey: Guid(9a35768dbfb09d34fb34c9f9a5f54f7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Payments/PaymentsCatalogYG.cs using Guid(9a35768dbfb09d34fb34c9f9a5f54f7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9d65df8e1cc24885e7b0799dd0a7fadd') in 0.009335 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Packages/YandexGame/Example/Scripts/SwitchSceneTest.cs
-  artifactKey: Guid(da7b11839e4c8104d8ff378f58121c39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Example/Scripts/SwitchSceneTest.cs using Guid(da7b11839e4c8104d8ff378f58121c39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4a48249f07e52658d8d01d219f6d6d65') in 0.008804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Packages/YandexGame/DebuggingMode/Scripts/DebuggingModeYG.cs
-  artifactKey: Guid(1941e6397309e694fa3dec609cd36544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/DebuggingMode/Scripts/DebuggingModeYG.cs using Guid(1941e6397309e694fa3dec609cd36544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c12181beeca3deea3fdf4ca95fdba50') in 0.009768 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/AdNotificationYG.cs
-  artifactKey: Guid(e65969bdf1e6f594dad0d590a5a83ad1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/AdNotificationYG.cs using Guid(e65969bdf1e6f594dad0d590a5a83ad1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'adf0eb0859b213665212590c79743241') in 0.008730 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/YandexGame/Example/Scenes/ExampleYG_Two.unity
-  artifactKey: Guid(b366c208bc7e0cc48bcf6a38216f2a82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Example/Scenes/ExampleYG_Two.unity using Guid(b366c208bc7e0cc48bcf6a38216f2a82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e956ea3fa1f4b130d9b6ce1b7cf028cb') in 0.007513 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Packages/YandexGame/Example/Scenes/ExampleYG_Two/LightingData.asset
-  artifactKey: Guid(291ef8d1741f07247bdef5fad7c1d3ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Example/Scenes/ExampleYG_Two/LightingData.asset using Guid(291ef8d1741f07247bdef5fad7c1d3ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4db94e6920e787931b369ab069251d7d') in 0.008999 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/ReviewYG.cs
-  artifactKey: Guid(a50aa89408dd46a4d9e4c2ed0c463947) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/ReviewYG.cs using Guid(a50aa89408dd46a4d9e4c2ed0c463947) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ff63b9d5c3bf65853145d40151f238e') in 0.009066 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Editor/Icons/Icon_PaymentsYG.png
-  artifactKey: Guid(885fc8126fadeaa4680b0adb9f3120b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Editor/Icons/Icon_PaymentsYG.png using Guid(885fc8126fadeaa4680b0adb9f3120b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '956170005badc4a5e4e945b5e4a737ac') in 0.013631 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/PromptYG.cs
-  artifactKey: Guid(aabbd61b068ca6c41becc09cb68bdbbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/PromptYG.cs using Guid(aabbd61b068ca6c41becc09cb68bdbbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '254c26021ad444d7c775b924f9f97171') in 0.007756 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Packages/YandexGame/Example/Scenes/ExampleYG/LightingData.asset
-  artifactKey: Guid(beef39281e0faf34daf1bc42eacb901f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Example/Scenes/ExampleYG/LightingData.asset using Guid(beef39281e0faf34daf1bc42eacb901f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '10730a2ee3368b13ca1a309873ce33e9') in 0.007646 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Inside/ConfigYG.cs
-  artifactKey: Guid(2726b935d9a3f7d4fa7814a8c6be7f37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Inside/ConfigYG.cs using Guid(2726b935d9a3f7d4fa7814a8c6be7f37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34cf44898288c3651863263cd2c8fd60') in 0.008273 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/ImageLoadYG.cs
-  artifactKey: Guid(e48d8d781d3e59d409adef5e128d2b04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/ImageLoadYG.cs using Guid(e48d8d781d3e59d409adef5e128d2b04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8866935185987bfb23bcb82643299f64') in 0.008752 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Language/Lang_yg.cs
-  artifactKey: Guid(4b33c4457e9d2634a9b2ef3687ba3c05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Language/Lang_yg.cs using Guid(4b33c4457e9d2634a9b2ef3687ba3c05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a2785325379671f0df43157109ab14ba') in 0.008711 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Payments/PurchaseYG.cs
-  artifactKey: Guid(676c869f6c04b7848ae04d741545c51d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Payments/PurchaseYG.cs using Guid(676c869f6c04b7848ae04d741545c51d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '211e9bcf72f207b4c460fe5bcbf1d1a6') in 0.008186 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/YandexGame/Prefabs/Leaderboards/Simple LB Example.prefab
-  artifactKey: Guid(7e8446452335d9046a7294bf503167e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Prefabs/Leaderboards/Simple LB Example.prefab using Guid(7e8446452335d9046a7294bf503167e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '11470a40a61a4cd7d3a09f36f68638ab') in 0.022440 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Packages/YandexGame/Prefabs/Payments/Purchase.prefab
-  artifactKey: Guid(85a12be5ffc39d349bf6dccb22596603) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Prefabs/Payments/Purchase.prefab using Guid(85a12be5ffc39d349bf6dccb22596603) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '85a0af9eaf429b240c5e5b6e082e75c0') in 0.014338 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 44
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/ForVisualScriptYG.cs
-  artifactKey: Guid(2600394ff637ed94aa89cbc5674ef071) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/ForVisualScriptYG.cs using Guid(2600394ff637ed94aa89cbc5674ef071) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '129b9c5e422a431166939d21d2807229') in 0.008589 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Editor/Icons/Icon_ImageLoadYG.png
-  artifactKey: Guid(d75a9fd6790aa47499fe10d0e51442e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Editor/Icons/Icon_ImageLoadYG.png using Guid(d75a9fd6790aa47499fe10d0e51442e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '047349571770343065f528cd54f1c759') in 0.014108 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Editor/CreateYandexGameEditor.cs
-  artifactKey: Guid(6b79d62e3e8af294e95683c03e2eb5fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Editor/CreateYandexGameEditor.cs using Guid(6b79d62e3e8af294e95683c03e2eb5fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec0f9aef22a9faf476d1e9e42c752a74') in 0.008167 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/YandexGame/Example/Scripts/InitExample.cs
-  artifactKey: Guid(f499633caabeedb4ca61f6573e49ec25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Example/Scripts/InitExample.cs using Guid(f499633caabeedb4ca61f6573e49ec25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2dbbd7c40355965fc3055c84cc7a13f') in 0.008711 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Packages/YandexGame/Example/Scripts/DebugViewing.cs
-  artifactKey: Guid(a21868984234d1445a9f3585607e3804) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Example/Scripts/DebugViewing.cs using Guid(a21868984234d1445a9f3585607e3804) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5d14d72aa782fa20ef9fa941e16ff9fd') in 0.007573 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/YandexGame.cs
-  artifactKey: Guid(404d6214ebdd58d43a94c7ed650dc2f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/YandexGame.cs using Guid(404d6214ebdd58d43a94c7ed650dc2f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5d1887a5040482f4ef6dbf25704312d6') in 0.007562 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Packages/YandexGame/Example/Scripts/YandexMetricaExample.cs
-  artifactKey: Guid(fda5e2c864db5b54788564a4daa20183) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Example/Scripts/YandexMetricaExample.cs using Guid(fda5e2c864db5b54788564a4daa20183) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '69101b45962632d573517df1e47f6069') in 0.007212 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/YandexMetrica/YandexMetrica.cs
-  artifactKey: Guid(4b807beff3bf4df498c4309ad4cd199a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/YandexMetrica/YandexMetrica.cs using Guid(4b807beff3bf4df498c4309ad4cd199a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00838cd77555fdf30e50bea7098223aa') in 0.007908 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Initialization/InitYGAttribute.cs
-  artifactKey: Guid(162d6a9797796ef4ea7bc013aea8f557) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Initialization/InitYGAttribute.cs using Guid(162d6a9797796ef4ea7bc013aea8f557) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a47b792a7fd7336498537365e3b878e8') in 0.007577 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Authorization/Auth_yg.cs
-  artifactKey: Guid(1c551c2e4702fc3469b681e2c974921e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Authorization/Auth_yg.cs using Guid(1c551c2e4702fc3469b681e2c974921e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9726446978c23670fcd16981d217953d') in 0.007666 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Editor/Icons/Icon_PromptYG.png
-  artifactKey: Guid(799b4d7211b75a047a9a47885bd0bc2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Editor/Icons/Icon_PromptYG.png using Guid(799b4d7211b75a047a9a47885bd0bc2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce52aa062cf0255ad8e3263b0c70b44b') in 0.012776 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Editor/Icons/Icon_GetPlayerYG.png
-  artifactKey: Guid(f7f61904b49993445b3e0385b563a10c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Editor/Icons/Icon_GetPlayerYG.png using Guid(f7f61904b49993445b3e0385b563a10c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '989368ae6de2a7fcb503ab249c4bd45b') in 0.013047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/UnityToolbag-main/ConditionallyVisiblePropertyDrawer/README.md
-  artifactKey: Guid(559c5bd81792c9a4eb15022253c1c195) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/UnityToolbag-main/ConditionallyVisiblePropertyDrawer/README.md using Guid(559c5bd81792c9a4eb15022253c1c195) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '254daf5c956d75ebe0fab1ce286f4a2f') in 0.006893 seconds
+  path: Assets/Textures/_test/Tiles2.png
+  artifactKey: Guid(a7970eddf57c6d846b7145bf0c5759a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/_test/Tiles2.png using Guid(a7970eddf57c6d846b7145bf0c5759a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882f90fd04d483d1eec7cad285cf676e') in 0.015446 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/LocalStorage/Plugins/LocalStorage.jslib
-  artifactKey: Guid(3e0ac78106fb48f4da7dc2ddf00eb9d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/LocalStorage/Plugins/LocalStorage.jslib using Guid(3e0ac78106fb48f4da7dc2ddf00eb9d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4dab183673adeffaaa5290678f95ef3d') in 0.009635 seconds
+  Time since last request: 527.658879 seconds.
+  path: Assets/Textures/BlocksItems/blocks .png
+  artifactKey: Guid(d8a83359cd562c7409b0e7833e2cbdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/BlocksItems/blocks .png using Guid(d8a83359cd562c7409b0e7833e2cbdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8e3f83c37f26a54f6f3cabff0c57cd') in 0.021034 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Storage/Editor/CloudStorage_js.js
-  artifactKey: Guid(f5c6d3122d94f464ba722732701cec8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Storage/Editor/CloudStorage_js.js using Guid(f5c6d3122d94f464ba722732701cec8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00d7274d512e56238f93b1e14b0dbaf7') in 0.006704 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textures/BlocksItems/Forest_trees.png
+  artifactKey: Guid(e9f7e7b6dca435a488fa8e5f05b68d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/BlocksItems/Forest_trees.png using Guid(e9f7e7b6dca435a488fa8e5f05b68d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069b4bdced0906c2fcfc22389dc42e2e') in 0.016294 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Payments/InternalScripts/Payments_yg.cs
-  artifactKey: Guid(d74cbe2986afbd6498c5c45d2db49d0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Payments/InternalScripts/Payments_yg.cs using Guid(d74cbe2986afbd6498c5c45d2db49d0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '597c650a070ea9081562b18d5a8b1eb2') in 0.007137 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Payments/Plugins/Payments.jslib
-  artifactKey: Guid(238de6e218a20f040954f53d2765c703) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Payments/Plugins/Payments.jslib using Guid(238de6e218a20f040954f53d2765c703) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd8fe5c92d0453a6e2f481255f8221be1') in 0.007272 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Language/Editor/LanguageYGEditor.cs
-  artifactKey: Guid(8f60c77fd7cff084d82071995ec21952) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Language/Editor/LanguageYGEditor.cs using Guid(8f60c77fd7cff084d82071995ec21952) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a0ecffd1991a9d6d7c081bfdfd25d73a') in 0.008140 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Editor/PostProcessBuild/ModifyIndexFile/MetricaDonor.html
-  artifactKey: Guid(b77bfc70153c2044982ff2f41728dab0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Editor/PostProcessBuild/ModifyIndexFile/MetricaDonor.html using Guid(b77bfc70153c2044982ff2f41728dab0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '39994d0839bfb16146e071506f07f43f') in 0.006563 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/YandexMetrica/Plugins/YandexMetricaPlugin.jslib
-  artifactKey: Guid(8d9e67e1e25e5454ca1340244ca566b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/YandexMetrica/Plugins/YandexMetricaPlugin.jslib using Guid(8d9e67e1e25e5454ca1340244ca566b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ded564eae8e78d037c058205c77599d1') in 0.007979 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Editor/PostProcessBuild/ModifyIndexFile/ModifyBuildManager.cs
-  artifactKey: Guid(a65f79c6642d5424a83a255a036bb2f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Editor/PostProcessBuild/ModifyIndexFile/ModifyBuildManager.cs using Guid(a65f79c6642d5424a83a255a036bb2f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c58c4990a294049a64b2e659b56636c0') in 0.008710 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Editor/Icons/Icon_ScriptYG.png
-  artifactKey: Guid(ebf62c4a754356d43b603c1eb10ce8b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Editor/Icons/Icon_ScriptYG.png using Guid(ebf62c4a754356d43b603c1eb10ce8b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '071e3779feadfad9c16becaa0f795ef3') in 0.014534 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Language/Editor/FontMasseInstallEditorWindow.cs
-  artifactKey: Guid(6410cefd485c7db448aafd6f75f12fd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Language/Editor/FontMasseInstallEditorWindow.cs using Guid(6410cefd485c7db448aafd6f75f12fd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2cb9be53cbed5528966dba2290d32d97') in 0.008572 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Editor/Icons/Icon_ReviewYG.png
-  artifactKey: Guid(784e930cc8dc26a49b42086686c26616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Editor/Icons/Icon_ReviewYG.png using Guid(784e930cc8dc26a49b42086686c26616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3eeaa7ccdb0b4158ee190307063c9232') in 0.012316 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Payments/Editor/Payments_js.js
-  artifactKey: Guid(2dd21d39f5f407e41b35e01cecb1269b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Payments/Editor/Payments_js.js using Guid(2dd21d39f5f407e41b35e01cecb1269b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0e3c472bb01f7aff790db394966b2be2') in 0.005333 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Editor/PostProcessBuild/ModifyIndexFile/BackgroundFormat.cs
-  artifactKey: Guid(aad2b8c333346804483bd07aa5d42380) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Editor/PostProcessBuild/ModifyIndexFile/BackgroundFormat.cs using Guid(aad2b8c333346804483bd07aa5d42380) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1b531576c1e2c0e5bd30a65ead47256') in 0.007205 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Editor/PostProcessBuild/BuildLog.cs
-  artifactKey: Guid(41b17c27a545bc242951b1f605e78ae1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Editor/PostProcessBuild/BuildLog.cs using Guid(41b17c27a545bc242951b1f605e78ae1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ab35be186c58b8b531df6da42bf5dcf') in 0.006289 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.52 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (200.7 KB). Loaded Objects now: 4775.
-Memory consumption went from 81.4 MB to 81.2 MB.
-Total: 3.164800 ms (FindLiveObjects: 0.206500 ms CreateObjectMapping: 0.097000 ms MarkObjects: 2.735100 ms  DeleteObjects: 0.125600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  colorSpace: 0 -> 1
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:graphics/active-color-space: 02000000000000000000000000000000 -> 03000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.71 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7 unused Assets / (198.5 KB). Loaded Objects now: 4775.
-Memory consumption went from 81.7 MB to 81.5 MB.
-Total: 4.162700 ms (FindLiveObjects: 0.248900 ms CreateObjectMapping: 0.100900 ms MarkObjects: 3.649400 ms  DeleteObjects: 0.162300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.75 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7 unused Assets / (198.4 KB). Loaded Objects now: 4775.
-Memory consumption went from 81.7 MB to 81.5 MB.
-Total: 3.876900 ms (FindLiveObjects: 0.306700 ms CreateObjectMapping: 0.188600 ms MarkObjects: 3.248000 ms  DeleteObjects: 0.132000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7 unused Assets / (198.5 KB). Loaded Objects now: 4775.
-Memory consumption went from 81.7 MB to 81.5 MB.
-Total: 3.824200 ms (FindLiveObjects: 0.206300 ms CreateObjectMapping: 0.104000 ms MarkObjects: 3.400700 ms  DeleteObjects: 0.112300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 784.491465 seconds.
-  path: Assets/Packages/YandexGame/Prefabs/Payments/Purchase.prefab
-  artifactKey: Guid(85a12be5ffc39d349bf6dccb22596603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/YandexGame/Prefabs/Payments/Purchase.prefab using Guid(85a12be5ffc39d349bf6dccb22596603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320259dbf05a328d06d98f37c7873082') in 0.005673 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 43
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

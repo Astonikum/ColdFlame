@@ -15,7 +15,7 @@ D:/GitHub/ColdFlame
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-57361
+55959
 Successfully changed project path to: D:/GitHub/ColdFlame
 D:/GitHub/ColdFlame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/GitHub/ColdFlame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27468] Host "[IP] 10.255.0.1 [Port] 0 [Flags] 2 [Guid] 2690295760 [EditorId] 2690295760 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-315VLNU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [31576] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 1535675927 [EditorId] 1535675927 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-315VLNU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [27468] Host "[IP] 10.255.0.1 [Port] 0 [Flags] 2 [Guid] 2690295760 [EditorId] 2690295760 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-315VLNU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31576] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 1535675927 [EditorId] 1535675927 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-315VLNU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 13.76 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.46 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.29f1 (8d510ca76d2b)
 [Subsystems] Discovering subsystems at path D:/2022.3.29f1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'D:/2022.3.29f1/Editor/Data/Managed'
 Mono path[1] = 'D:/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/2022.3.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/2022.3.29f1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
 Register platform support module: D:/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002744 seconds.
-- Loaded All Assemblies, in  0.244 seconds
+Registered in 0.002879 seconds.
+- Loaded All Assemblies, in  0.261 seconds
 Native extension for WindowsStandalone target not found
 Failed to load: D:/2022.3.29f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
 Native extension for VisionOS target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.216 seconds
-Domain Reload Profiling: 460ms
-	BeginReloadAssembly (76ms)
+- Finished resetting the current domain, in  0.219 seconds
+Domain Reload Profiling: 480ms
+	BeginReloadAssembly (80ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (101ms)
-		LoadAssemblies (75ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (109ms)
+		LoadAssemblies (80ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (99ms)
-			TypeCache.Refresh (98ms)
-				TypeCache.ScanAssembly (88ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (95ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (216ms)
+	FinalizeReload (219ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (172ms)
+		SetupLoadedEditorAssemblies (176ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (112ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,8 +121,8 @@ Domain Reload Profiling: 460ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.467 seconds
-Refreshing native plugins compatible for Editor in 2.67 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.450 seconds
+Refreshing native plugins compatible for Editor in 2.26 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Failed to load: D:/2022.3.29f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
 Native extension for VisionOS target not found
@@ -132,928 +132,239 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.452 seconds
-Domain Reload Profiling: 919ms
-	BeginReloadAssembly (103ms)
+- Finished resetting the current domain, in  0.457 seconds
+Domain Reload Profiling: 907ms
+	BeginReloadAssembly (108ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (23ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (306ms)
-		LoadAssemblies (210ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (281ms)
+		LoadAssemblies (209ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (155ms)
-			TypeCache.Refresh (129ms)
-				TypeCache.ScanAssembly (113ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (100ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (452ms)
+	FinalizeReload (457ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (336ms)
+		SetupLoadedEditorAssemblies (340ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (12ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (44ms)
-			ProcessInitializeOnLoadAttributes (249ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.75 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.32 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4121 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 83 unused Assets / (252.0 KB). Loaded Objects now: 4564.
-Memory consumption went from 144.0 MB to 143.7 MB.
-Total: 2.798400 ms (FindLiveObjects: 0.173600 ms CreateObjectMapping: 0.079800 ms MarkObjects: 2.369500 ms  DeleteObjects: 0.174500 ms)
+Unloading 4122 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 83 unused Assets / (251.8 KB). Loaded Objects now: 4567.
+Memory consumption went from 143.9 MB to 143.7 MB.
+Total: 2.516300 ms (FindLiveObjects: 0.172900 ms CreateObjectMapping: 0.078000 ms MarkObjects: 2.104100 ms  DeleteObjects: 0.160400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/RandomColor.cs: c661a2ba17c6dd73f5e7d7ce15bc434a -> 
-  custom:scripting/monoscript/fileName/Common.cs: 0158e194f5774e7a793d9e7d7b697605 -> 6ffc11e45ee8ab7a7d4178988978e63b
-  custom:scripting/monoscript/fileName/MatchmakerManagedReleaseCreate.cs: e15f2c55d448cdfdb6ceade3c1218f77 -> 
-  custom:scripting/monoscript/fileName/Welcome.cs: 3275105d20e113dba84a5d6da326de16 -> 
-  custom:scripting/monoscript/fileName/TeamInterestManagement.cs: 47f76cc7796b7eb81625388c5fffee0d -> 
-  custom:scripting/monoscript/fileName/RoomGUI.cs: bea938ca54ac0985dfefa310ef2dbaa5 -> 
-  custom:scripting/monoscript/fileName/ContainerLogStorageModel.cs: 38979b337668bd0b151b37e4f556c01d -> 
-  custom:scripting/monoscript/fileName/SelectorEnvModel.cs: 232f6a81ccc4275e5fb5ca95a21d119e -> 
-  custom:scripting/monoscript/fileName/EdgegapKcpClient.cs: 49a4fb5b561df33357ec4e8314592146 -> 
-  custom:scripting/monoscript/fileName/CreateAppRequest.cs: 4588c51c0de3a0c7f39f0cc158087297 -> 
-  custom:scripting/monoscript/fileName/Payments_build.cs: ec69c384c45ec28c4feb22d25e4dfab5 -> 78199b84652cbdf193eca9debe741579
-  custom:scripting/monoscript/fileName/KcpConfig.cs: a5a65206a8bd436c45ec08fe621dfcf4 -> 
-  custom:scripting/monoscript/fileName/EdgegapKcpTransport.cs: aa89b6f77d6d93d642cad362aa0956db -> 
-  custom:scripting/monoscript/fileName/SendLoop.cs: aa1df1495701567ae2297c97ebcf200a -> 
-  custom:scripting/monoscript/fileName/InspectorHelper.cs: c0dc0d2175f01867f38aa8ee57b98227 -> 
-  custom:scripting/monoscript/fileName/Spawner.cs: 3127f05e5e708246394a1065def40688 -> 
-  custom:scripting/monoscript/fileName/AppVersionEnv.cs: f6ab1d154b092c587cddc5ef2eae3ee3 -> 
-  custom:scripting/monoscript/fileName/InterestManagement.cs: 1d196aaec2a6dd387b95575be3f93ff4 -> 
-  custom:scripting/monoscript/fileName/Monitor.cs: 91ab0fa8ab949502e1fa3769e3adb5e7 -> 
-  custom:scripting/monoscript/fileName/NetworkPingDisplay.cs: bdee4d6ef3eae73e0d52b9f16674888e -> 
-  custom:scripting/monoscript/fileName/EditorHelper.cs: 7e6c27e0930e378915a848b275668cfd -> 
-  custom:scripting/monoscript/fileName/GRA_yg.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/PortTransport.cs: 9dc8350da03cedb9423032181fb85082 -> 
-  custom:scripting/monoscript/fileName/CommandProcessor.cs: dce2f3e2552e23b088f22084ba7aece1 -> 
-  custom:scripting/monoscript/fileName/PlayerControllerScript.cs: 64f5b9fb0f7595ceaad82283b7e3d9cf -> 
-  custom:scripting/monoscript/fileName/Auth_yg.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/MetricaCounterID.cs: ec69c384c45ec28c4feb22d25e4dfab5 -> 78199b84652cbdf193eca9debe741579
-  custom:scripting/monoscript/fileName/ConsumePurchasesYG.cs: 5462753636f72c3422858d28b799f4f2 -> f8390e8476e5f4e7210136ffd6d3e423
-  custom:scripting/monoscript/fileName/MagnificentReceivePipe.cs: 07bb56c224f0694f6eab116c94540745 -> 
-  custom:scripting/monoscript/fileName/Mathd.cs: 820b77cd536abdfea050e4aad2435dbe -> 
-  custom:scripting/monoscript/fileName/SnapshotInterpolationSettings.cs: 84df2861d863850c625e1e3df33482c3 -> 
-  custom:scripting/monoscript/fileName/MatchmakerReleaseCreateBase.cs: 388b48b46118119356dc912bacbcd8cb -> 
-  custom:scripting/monoscript/fileName/Segment.cs: 62b8e474be7de4ef2add88c34c52c96f -> 
+  custom:scripting/monoscript/fileName/BlockData.cs: 67ad34dd6ccb9595a769cbc67ebae62e -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/NetworkRigidbodyUnreliable2D.cs: 44cc1ce962868ab2451e4fd78bff13b6 -> 
-  custom:scripting/monoscript/fileName/NetworkManagerCharacterSelection.cs: d36cae6cb70dec99c93a4d6f8fe4eb3d -> 
-  custom:scripting/monoscript/fileName/AppPortsData.cs: 484772d85f52b7f0f75d76832dcf1304 -> 
-  custom:scripting/monoscript/fileName/Reward.cs: beb9c6f3b6ce7194c3362d6ac438b8f3 -> 
-  custom:scripting/monoscript/fileName/NetworkStartPosition.cs: b6cf3a635708a3dc7b08bce7078bfe3b -> 
-  custom:scripting/monoscript/fileName/ServerCube.cs: 73756ec9d12da29fd7dc1fbbe401258f -> 
-  custom:scripting/monoscript/fileName/NetworkTime.cs: d999bdd39cc88bf4e51aef65c1b18781 -> 
-  custom:scripting/monoscript/fileName/DebugViewing.cs: dc9339eaadf4697102c0b7d2bfd470fc -> 7004a6a39bd1a0c0164623dc34f03f0e
-  custom:scripting/monoscript/fileName/TargetRpcProcessor.cs: 875eef90a961305a90ee5deb5e62fe20 -> 
-  custom:scripting/monoscript/fileName/CSVFileEditorWindow.cs: 3ae3ec57034419d2c63810b7f383c2d0 -> 3c021d43066a78b45ba8715852c7907e
-  custom:scripting/monoscript/fileName/RedBallPredicted.cs: 65409afe7c29b5a9197c2031fdfa2b9b -> 
-  custom:scripting/monoscript/fileName/ConcurrentPool.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 
-  custom:scripting/monoscript/fileName/NetworkStreamExtensions.cs: 0ad3d62f12934454fa51f504ed74c954 -> 
-  custom:scripting/monoscript/fileName/CustomBulkSessionsModel.cs: 2a9ff1c93ce32beb066efdadd24cccfc -> 
-  custom:scripting/monoscript/fileName/RigidbodyState.cs: e4d7ef6296ebd4ba666c8fe5c8344132 -> 
-  custom:scripting/monoscript/fileName/PreprocessorDefine.cs: c6f2b3ded660495636b1c42d05411d8c -> 
-  custom:scripting/monoscript/fileName/AutoLocalizationMasseWindow.cs: 10b50ee8803146482e9cb15b1f2e8e3f -> 9a3cbffd6c498e5473e4d1b6162c2b6c
-  custom:scripting/monoscript/fileName/Resolvers.cs: 8f6d1de6d7c4f7cc282811a9b8cf2e15 -> 
-  custom:scripting/monoscript/fileName/EdgegapBuildUtils.cs: cef8910ce804427f0745a280f7967b66 -> 
-  custom:scripting/monoscript/fileName/Monster.cs: 7b8e2efeba28da5222c6caf7232bb132 -> 
-  custom:scripting/monoscript/fileName/MethodProcessor.cs: 41b75bee658b228534e786b22f691f9d -> 
-  custom:scripting/monoscript/fileName/SyncObjectInitializer.cs: 37e83b774712c9d4555933d9cac4472a -> 
-  custom:scripting/monoscript/fileName/BasicAuthenticator.cs: ac378f27894475ce487b2443eeafde20 -> 
-  custom:scripting/monoscript/fileName/InfoYGEditor.cs: 67ea3b0e8530113b022989e0309c7e5e -> ca2a8bf2d9d2c22ff5e273deecb80296
-  custom:scripting/monoscript/fileName/NetworkTransformChild.cs: c432958d794a8c474f6f3bbd44c9d88a -> 
-  custom:scripting/monoscript/fileName/BuildLog.cs: fc0796d853c26646e37060457a6e04d5 -> ad2ba45c6eee0748a5c1aae7fad8e143
-  custom:scripting/monoscript/fileName/NetworkWriterPool.cs: c4f7e0f26e987a9c34f6bc9de15d31b9 -> 
-  custom:scripting/monoscript/fileName/CharacterData.cs: 2d6f9b495f8bf4122329807e55213e01 -> 
-  custom:scripting/monoscript/fileName/Deployments.cs: 095e9774c0716e4231109bda873046ad -> 
-  custom:scripting/monoscript/fileName/Helpers.cs: 480c3351053541d745149c972ff81071 -> 
-  custom:scripting/monoscript/fileName/SyncVarAttributeAccessReplacer.cs: b5f8c97b5fcda5ad0ad983b5202b2bc9 -> 
-  custom:scripting/monoscript/fileName/SessionModel.cs: 588ff9189adad8880057eef52cf85ce4 -> 
-  custom:scripting/monoscript/fileName/ThreadFunctions.cs: 3603364b608f0d3886e25d5051e1131d -> 
-  custom:scripting/monoscript/fileName/MessageProcessor.cs: c7bbe36bb974fa07f8fc7c8040c5bcc7 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/CreateYandexGameEditor.cs: 4f6230efe07bd3ea3973b9f9256c39a8 -> a94538225791787b880c3a65eaf1f8de
-  custom:scripting/monoscript/fileName/SceneInterestManagement.cs: 148a80ae8e4023736fb4389c38689ec5 -> 
-  custom:scripting/monoscript/fileName/AppVersionWhitelistEntrySuccess.cs: aaeabe785c9e790eb182ba360c82841a -> 
-  custom:scripting/monoscript/fileName/Kcp.cs: 9c24d4b981757360f9b1a512f0ba0fd0 -> 
-  custom:scripting/monoscript/fileName/CouchPlayerManager.cs: 6d1fc51e18a3786523f886648e451d4b -> 
-  custom:scripting/monoscript/fileName/KcpClient.cs: fdcee07213d977d79fc424677a876a9f -> 
-  custom:scripting/monoscript/fileName/StopActiveDeploymentResult.cs: df12926c5bcebe21623fd81e41d9f19b -> 
-  custom:scripting/monoscript/fileName/NetworkBehaviourSyncVar.cs: 8a0b72398954f3ccb38dfac9608f97e8 -> 
-  custom:scripting/monoscript/fileName/WanderMoveBehaviour.cs: 27f291392f314797d6e759a8413026eb -> 
-  custom:scripting/monoscript/fileName/LagCompensator.cs: fb027885b65bafad235bfac1458717ac -> 
-  custom:scripting/monoscript/fileName/SyncVarAttributeProcessor.cs: 141c7608ad81c809e94a4b606c6196e4 -> 
-  custom:scripting/monoscript/fileName/Sessions.cs: fbfc38deb383d0933aa7fba6f7884053 -> 
-  custom:scripting/monoscript/fileName/UtilsPayments.cs: 99eef36471958faee3601fb85cef7eff -> d4ade619ac91c263f3aa03e121316dec
-  custom:scripting/monoscript/fileName/NetworkRoomManagerExt.cs: 984093be20612c82bf7b3ed56e76021e -> 
-  custom:scripting/monoscript/fileName/MatchmakerResponse.cs: 27933f06f55e176f6aa3c3f943d33206 -> 
-  custom:scripting/monoscript/fileName/YandexMetricaExample.cs: 1a76e96966ea192c5264b2fcc915f323 -> 1c02751772e68a93b49a1bd033993173
-  custom:scripting/monoscript/fileName/BackgroundFormat.cs: ec69c384c45ec28c4feb22d25e4dfab5 -> 78199b84652cbdf193eca9debe741579
-  custom:scripting/monoscript/fileName/NetworkInformationPreview.cs: e24a49b32f45caa621cb9592a54fde7e -> 
-  custom:scripting/monoscript/fileName/StaticSites.cs: a02ac10c3f4b90d5b64fcd8147aacf87 -> 
-  custom:scripting/monoscript/fileName/PlayerUI.cs: e1daf3f7d9ece0617c7ebea3332d091b -> 
-  custom:scripting/monoscript/fileName/NetworkReaderPooled.cs: 1b79c7beede9b2602eab413bdd54cacb -> 
-  custom:scripting/monoscript/fileName/PlayerScore.cs: 794833559aeed825932e993c6d3385f3 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/EncryptionTransportInspector.cs: d705d333479f0dc18258fdc87749a6b1 -> 
-  custom:scripting/monoscript/fileName/NetworkTransformReliable.cs: 7c2d223f98be8c72c1fd281526750035 -> 
-  custom:scripting/monoscript/fileName/SineMoveYBehaviour.cs: cac7892f4c401ad63f8e1aaba478971b -> 
-  custom:scripting/monoscript/fileName/NetworkLerpRigidbody.cs: ddb1470ed546d11ca16bd93cbf1d5b5f -> 
-  custom:scripting/monoscript/fileName/InfoYG.cs: 2ef35deea643fc4b015e5e82f1554054 -> f4465da198370cf082330ff4f2ed1e3e
-  custom:scripting/monoscript/fileName/EncryptedConnection.cs: faf133cdb3eea8febaf8209f3910a93b -> 
-  custom:scripting/monoscript/fileName/CharacterSelection.cs: af716194bfd7cefc5db3662a79eb1f46 -> 
-  custom:scripting/monoscript/fileName/UpdateAppVersionRequest.cs: 22796c5e7d1db9e5fcdc589c6dbd47d1 -> 
-  custom:scripting/monoscript/fileName/ThreadedTransport.cs: e7d6f1465b3f419b7a13c7efe5ad0d63 -> 
-  custom:scripting/monoscript/fileName/EncryptionCredentials.cs: 6fda11bdfc44ff57d9f0ee4c3a9b38fa -> 
-  custom:scripting/monoscript/fileName/ViewingAdsYG.cs: ca7ddc77a4cebbe73d1a4f5e1ead5b3a -> 0951e7828a0cd23eb91efe2102025c09
-  custom:scripting/monoscript/fileName/NetworkRigidbody2D.cs: 37b6bb9236ffe3c6eead12edf0e7bd2f -> 
-  custom:scripting/monoscript/fileName/NetworkDiscoveryHUD.cs: 53740422a1d7df46546f794228be1bbe -> 
-  custom:scripting/monoscript/fileName/ExponentialMovingAverage.cs: 33f6afb9921979bb7c251d6f2225754f -> 
-  custom:scripting/monoscript/fileName/ApiModelContainercrashdata.cs: 84a4d997023e11d75f605e52a122f936 -> 
-  custom:scripting/monoscript/fileName/MatchmakerReleaseResponse.cs: 6126a7fbbef93c6f6bf5c41efe2e294e -> 
-  custom:scripting/monoscript/fileName/DistanceInterestManagement.cs: 102749f6e7f8c7ffa3e52a7d9fb4a870 -> 
-  custom:scripting/monoscript/fileName/MatchmakerManagedReleaseUpdate.cs: d33b917b2d3deee7dab3906b129d0e72 -> 
-  custom:scripting/monoscript/fileName/PromptYG.cs: 4c672d572b0492a4a9aee394940be744 -> 6c61ad60ccea05e60a9d5d606186c634
-  custom:scripting/monoscript/fileName/Snapshot3D.cs: ef4bd0b24396a49a7d7e635fed36b7ed -> 
-  custom:scripting/monoscript/fileName/CanvasScript.cs: 8bd54feed5aa30e6be310ab777281a91 -> 
-  custom:scripting/monoscript/fileName/PixelRatioMobile.cs: ec69c384c45ec28c4feb22d25e4dfab5 -> 78199b84652cbdf193eca9debe741579
-  custom:scripting/monoscript/fileName/NetworkTransformUnreliable.cs: f54f8337405056939bf2dc6aaa29c5df -> 
-  custom:scripting/monoscript/fileName/PostProcessBuild.cs: ae44c22db867e885e4f0727773f9c74d -> bba1e5d0765cfa7f94cb05681b8a97a0
-  custom:scripting/monoscript/fileName/MatchmakerComponentEnvsUpdate.cs: 68b615417ed7b1f18d0e4a7128301f3f -> 
-  custom:scripting/monoscript/fileName/MagnificentSendPipe.cs: 42db1600b598db4ff943533494ead556 -> 
-  custom:scripting/monoscript/fileName/SyncSet.cs: 2b4455e6e3b12ad5b28b297ffca2f154 -> 
-  custom:scripting/monoscript/fileName/DeployPostData.cs: 399c3bdeaa97654d457b45f8365b2193 -> 
-  custom:scripting/monoscript/fileName/MatchmakerComponentEnvsCreate.cs: 82b2ad90d38c49cc401b56f4b9085eec -> 
-  custom:scripting/monoscript/fileName/ILPostProcessorFromFile.cs: 1a553c2a2abf080d2d09a4c6b518e173 -> 
-  custom:scripting/monoscript/fileName/SslConfigLoader.cs: 90c5a4800f2ee01a2b9fb42b32482b0a -> 
-  custom:scripting/monoscript/fileName/LeaderboardYG.cs: 25d7f93c217006abcca96c05b74f5a7a -> a12d59f06a758b0f511061a00a3fb6cc
-  custom:scripting/monoscript/fileName/ConfigYG.cs: 8b9db11fb5c5568bad51716d8e6367b3 -> 2e3b5119272d99c8a1c30e915fc31b96
-  custom:scripting/monoscript/fileName/SpatialHashingInterestManagement.cs: 26980df211e645852dd0280e3db815ee -> 
-  custom:scripting/monoscript/fileName/SinRandomMoveWrapper.cs: 16c013cb8c82b83c21c8448d6e87cae8 -> 
-  custom:scripting/monoscript/fileName/ChatNetworkManager.cs: f1f8f13f1a78de29f55f9e1466a15ad5 -> 
-  custom:scripting/monoscript/fileName/CreateDeploymentRequest.cs: e7a07e09babc686c4b0cc3fa22e83414 -> 
-  custom:scripting/monoscript/fileName/Lang_yg.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/PlayerCamera.cs: 358e2ae1f0cd93eb8bdfa8bdf9009670 -> 
-  custom:scripting/monoscript/fileName/ApiModelContainerlogs.cs: 193b8e520c0cf7aabf89118c5d83b9a1 -> 
-  custom:scripting/monoscript/fileName/DeviceAuthenticator.cs: 0c21d9c739d61478294cb296bec74625 -> 
-  custom:scripting/monoscript/fileName/Batcher.cs: e62fe982e7a8f1bd6b88654353f0780e -> 
-  custom:scripting/monoscript/fileName/AppVersions.cs: 9ffec136a3ab89b5aa83fd4552b25137 -> 
-  custom:scripting/monoscript/fileName/NetworkTransformBase.cs: de9365ba4a9d93b5754d6ba4f07a687e -> 
-  custom:scripting/monoscript/fileName/Status.cs: d23c1981d269b6b99657d7a9bfe4ccef -> 
-  custom:scripting/monoscript/fileName/SceneReferencer.cs: 775eadd1c357037313ac8bbefa2ea5fb -> 
-  custom:scripting/monoscript/fileName/CustomSessionDeleteModel.cs: e2bf2b0be28990be32d32961a0843ccb -> 
-  custom:scripting/monoscript/fileName/TranslationTableEditorWindow.cs: 77db7523ab2948c58f9e5a0bf92c5e48 -> fdbd7583ba2c02783b8fee470525de2e
-  custom:scripting/monoscript/fileName/Application.cs: d8719ae0cfc39c5878c3d2b609c02160 -> 
-  custom:scripting/monoscript/fileName/PlayerController.cs: 3beb4b18831949cc4c7e56dc5ce10e42 -> 
-  custom:scripting/monoscript/fileName/Utils.cs: 15dbaa717b6f1f83fb34f48ebee77df4 -> 40c528c300bfc0733192292a788cb076
-  custom:scripting/monoscript/fileName/PaymentsCatalogYG.cs: 0be28ca6bc70ca03c36004a242486177 -> 2446b607eb95a07309d28db0612fe50e
-  custom:scripting/monoscript/fileName/NetworkManagerEditor.cs: 44d9af9ad2bb4a8ab70f5b42949a6a10 -> 
-  custom:scripting/monoscript/fileName/ImageLoadYG.cs: 0675b094d91a4080f00da04bc0136570 -> 592a1978828442c29495a713334b493b
-  custom:scripting/monoscript/fileName/PhysicsSimulator.cs: 0d13bcdc555a294041ade19fbd8d9a94 -> 
-  custom:scripting/monoscript/fileName/Ball.cs: d8e8f508fa92de77bf8f7a2d91b39f10 -> 
-  custom:scripting/monoscript/fileName/MatchmakerComponentCreate.cs: b74226b680792ced3525861838feb572 -> 
-  custom:scripting/monoscript/fileName/MatchmakerReleaseCreate.cs: be8b125a2a757697c84fb4cdcee0c90a -> 
-  custom:scripting/monoscript/fileName/WanderMoveWrapper.cs: 51964d711d03c23d732a1e7916bb643a -> 
-  custom:scripting/monoscript/fileName/OpenAuthorizationDialog.cs: b8a98f173a8d56d326efcf283b9f2b24 -> 7e8fa85b42afc74ca8b9036c3de5520c
-  custom:scripting/monoscript/fileName/MatchmakerReleaseConfigCreate.cs: 7d4fa05d2593844bd1cdae0ab46ef643 -> 
-  custom:scripting/monoscript/fileName/GetDeploymentStatusResult.cs: a63c57c4eeecdfb400d5b10abf919fb1 -> 
-  custom:scripting/monoscript/fileName/StaticVariables.cs: bda4da3989bb850945d2d123c569ba6f -> 
-  custom:scripting/monoscript/fileName/AutoForce.cs: 6cbcfe82ae0f21cba1e0b109bcc08ab8 -> 
-  custom:scripting/monoscript/fileName/NetworkMatch.cs: 977c23f43fe09b24faa1c92a249703e5 -> 
-  custom:scripting/monoscript/fileName/TransformSnapshot.cs: 9c190ebbaedd1742b33ce14fbdd65d14 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/monoscript/fileName/NetworkTeam.cs: 999f96249d05085174defd2deaffe0f2 -> 
-  custom:scripting/monoscript/fileName/MatchmakerReleaseConfigUpdate.cs: 3f7293fa6a5de45cf3e3fa741924d72d -> 
-  custom:scripting/monoscript/fileName/NewResultLBExample.cs: a8f4fb265b1befd397e80c463207c42b -> 3c8360009a502f365b81b66e7c03ae29
-  custom:scripting/monoscript/fileName/DeltaCompression.cs: 2dd8970aace81493740ee855baca74be -> 
-  custom:scripting/monoscript/fileName/EdgegapIpApi.cs: b48baf962b81a51c2bf9169865ff3859 -> 
-  custom:scripting/monoscript/fileName/ThreadedKcpTransport.cs: bd4e0262a03fb88964e98c4eb92dc561 -> 
-  custom:scripting/monoscript/fileName/ForVisualScriptYG.cs: 3df002795308072e7b035b71a7dce961 -> 75bff424ebf6aab9c6ae576c87fe2035
-  custom:scripting/monoscript/fileName/SyncObjectCollectionsDrawer.cs: b7266bbe2070812b3863fe2404c35b5f -> 
-  custom:scripting/monoscript/fileName/NetworkDiscoveryBase.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 
-  custom:scripting/monoscript/fileName/CanvasNetworkManagerHUD.cs: 7e1dfdbd8eb284f0a762512145adcdd6 -> 
-  custom:scripting/monoscript/fileName/NetworkScenePostProcess.cs: b41658019c3fb8ba28125c02b2405785 -> 
-  custom:scripting/monoscript/fileName/AdNotificationYG.cs: 80a29ea0120599e9b2f7be8d2e74b3fd -> 8f292266599a92cbf5f8cdbd849dc2a6
-  custom:scripting/monoscript/fileName/GUIGame.cs: 08c756c3d27bf966c95291eeb50da20a -> 
-  custom:scripting/monoscript/fileName/HistoryCollider.cs: bcec4e957f06e91f93fe89ebecea8e9d -> 
-  custom:scripting/monoscript/fileName/EnvirData_build.cs: ec69c384c45ec28c4feb22d25e4dfab5 -> 78199b84652cbdf193eca9debe741579
-  custom:scripting/monoscript/fileName/ServerResponse.cs: 83c61e59ec03f119eb3c572b5f9fa8f6 -> 
-  custom:scripting/monoscript/fileName/ReviewYG.cs: d51ead940ab598b1246eb8812cfc433a -> c024ec840c06dabdf8350d65bf59a556
-  custom:scripting/monoscript/fileName/NetworkBehaviourProcessor.cs: 207426c0cb0715895a39a9beaa3fc210 -> 
-  custom:scripting/monoscript/fileName/AdditiveLevelsNetworkManager.cs: 4e756751a729f0ebd920ae2f44b72e43 -> 
-  custom:scripting/monoscript/fileName/ButtonShaker.cs: 6f41675924f69e420a15753d8eccb9ef -> 
-  custom:scripting/monoscript/fileName/AuthorityNetworkManager.cs: 7c5fe8f2da6aec8fbbbf9110b78a7644 -> 
-  custom:scripting/monoscript/fileName/ServerRequest.cs: deecd7df46c0640a2884ebc33a931ce7 -> 
-  custom:scripting/monoscript/fileName/InitYGAttribute.cs: a33790048a041e44dfb94245ca77bdd0 -> 83dcc575f274426fa346ed60cfc3d794
-  custom:scripting/monoscript/fileName/AppCreation.cs: 8fc6ac79b985b9fe3acf97cee4b22860 -> 
-  custom:scripting/monoscript/fileName/SessionRequest.cs: 3ee4a349c1f679ce2cd69149114ce901 -> 
-  custom:scripting/monoscript/fileName/RemoteStatistics.cs: e13f6a17ca85c9db4cdb241b2a2adc85 -> 
-  custom:scripting/monoscript/fileName/AppVersionPort.cs: 372295e5f80783180dc3b859792d7895 -> 
-  custom:scripting/monoscript/fileName/Projectile.cs: cb5e2a8be9bcd245964125746a07c795 -> 
-  custom:scripting/monoscript/fileName/EnvirData_yg.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/AppVersion.cs: e3e998c02cfcac40df3fef764bc8cb2b -> 
-  custom:scripting/monoscript/fileName/GetCreateAppResult.cs: 628c5b361c3a624c9dfcdbbc066504e4 -> 
-  custom:scripting/monoscript/fileName/SyncVarAccessLists.cs: ca33674e05a3a88e2f9fabfca35a8d85 -> 
-  custom:scripting/monoscript/fileName/SnapshotInterpolation.cs: 37cc6f078b2420d7b6d8f4703deedb3e -> 
-  custom:scripting/monoscript/fileName/CallingAnEvent.cs: 2c1d68967a2f7029d053700a6989cc03 -> f6c0d8dbd3cd2ad55641f071bb0c5be1
-  custom:scripting/monoscript/fileName/MatchmakerComponentUpdate.cs: dafad23f58fe67b7964de6b265c630a0 -> 
-  custom:scripting/monoscript/fileName/Paginator.cs: 77c068a1d4239d0bf12388ce1bf4d41b -> 
-  custom:scripting/monoscript/fileName/AppVersionProbe.cs: ff9a411af7da919c70c15410c0952483 -> 
-  custom:scripting/monoscript/fileName/BenchmarkIdleNetworkManager.cs: 007fbff2fd815592af320e7ab2a66956 -> 
-  custom:scripting/monoscript/fileName/CSVManager.cs: 2fdc7a5ce231183755eb96891ca773ee -> a9feda9ad200c5a6d7e67faa65cc607b
-  custom:scripting/monoscript/fileName/Locations.cs: c040b707496654c64f7e5670dc36f40f -> 
-  custom:scripting/monoscript/fileName/LocalConnectionToClient.cs: da620a6a223c6e3de198b3ef7b2e5b43 -> 
-  custom:scripting/monoscript/fileName/ScriptAnimations.cs: ac0f8d2b7b84381cdc88fc63e60b67ef -> 
-  custom:scripting/monoscript/fileName/TankController.cs: 3bff84706911d6aae9a12a938df9b5fd -> 
-  custom:scripting/monoscript/fileName/Grid2D.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 
-  custom:scripting/monoscript/fileName/Compression.cs: 470b67c9743b1b3c19bff7879a691277 -> 
-  custom:scripting/monoscript/fileName/RpcProcessor.cs: a841f928fc388105d626dab5b635bf96 -> 
-  custom:scripting/monoscript/fileName/Location.cs: 99aa4abc94ea21bbc48660627d48d2e1 -> 
-  custom:scripting/monoscript/fileName/SessionUserContext.cs: 78db2a0c0f7abdab1b5bf7edf17810be -> 
-  custom:scripting/monoscript/fileName/Transport.cs: 78fb2c81963a13fd485c8c6bfffaf81a -> 
-  custom:scripting/monoscript/fileName/RandomVector3.cs: 1518a001f47dabf21f8e94495f29155b -> 
-  custom:scripting/monoscript/fileName/BehaviourConfig.cs: 83d06bc8a5e9ef370f12178a137212b0 -> 
-  custom:scripting/monoscript/fileName/EdgegapServerDataManager.cs: 082b427212e35da3818d32cde3b9fdf2 -> 
-  custom:scripting/monoscript/fileName/TimerBeforeAdsYG.cs: 02693f8ecf670084841afc4c4e2f4d00 -> 6bc30d29a3a3de17da3c3dc859331cfb
-  custom:scripting/monoscript/fileName/Auth_build.cs: ec69c384c45ec28c4feb22d25e4dfab5 -> 78199b84652cbdf193eca9debe741579
-  custom:scripting/monoscript/fileName/ApplicationPost.cs: 62eff261307658d66eb2f9d5ef23248e -> 
-  custom:scripting/monoscript/fileName/StaticSitesList.cs: df8e8a918bc18e37e8e2f2303ac2a5e0 -> 
-  custom:scripting/monoscript/fileName/DistanceInterestManagementCustomRange.cs: 810eebf046cc4822f5b827ff2cc9c708 -> 
-  custom:scripting/monoscript/fileName/Request.cs: 6201760d2d36445ae92047c118083b7d -> 
-  custom:scripting/monoscript/fileName/AddForce.cs: dfc59e30ea86bdbf5b9eaf9b9e9fab3a -> 
-  custom:scripting/monoscript/fileName/NetworkTransform.cs: 2969e61120dbe6259751981c4e345124 -> 
-  custom:scripting/monoscript/fileName/Applications.cs: cd703f890bcf1a4da61984cb36b8ab89 -> 
-  custom:scripting/monoscript/fileName/MatchMessages.cs: 062a5e12e973bbb6d98014f939602279 -> 
-  custom:scripting/monoscript/fileName/DeploymentPortsData.cs: c8701c80908f23f694ca0d0f4c39eecc -> 
-  custom:scripting/monoscript/fileName/ThreadLog.cs: 740097a8af38c62256a4180624b43656 -> 
-  custom:scripting/monoscript/fileName/Client.cs: e4987f3c5d4e1ed26fa402c86f4be179 -> 
-  custom:scripting/monoscript/fileName/DeploymentLocation.cs: 98f0fe85efcc35502c64f98e08a805ca -> 
-  custom:scripting/monoscript/fileName/KcpServer.cs: 0b238f8ba12fc3441c4e13d3e7b28711 -> 
-  custom:scripting/monoscript/fileName/NetworkRoomPlayerExt.cs: 539a457406035c636b917c0c86429309 -> 
-  custom:scripting/monoscript/fileName/WorkerThread.cs: 2f1610b513295963c6d7a9de04c763af -> 
-  custom:scripting/monoscript/fileName/RigidbodyBenchmarkNetworkManager.cs: 9a9633e8b1c31c252142a41f078a1347 -> 
-  custom:scripting/monoscript/fileName/Deployment.cs: 5cd72fa7949b23f5d824123f3a0294cc -> 
-  custom:scripting/monoscript/fileName/EdgegapToolScript.cs: d57bee7a3a45fa7f358d06dd07d5f4e5 -> 
-  custom:scripting/monoscript/fileName/EdgegapDeploymentsApi.cs: 03f205bb31803fb37ad595f3f17c4bc1 -> 
-  custom:scripting/monoscript/fileName/WeaverTypes.cs: 71e36721faab5a27e13feb6202d34d7d -> 
-  custom:scripting/monoscript/fileName/MatchInterestManagement.cs: bd0201139ecd108d6cc8f80987a874a7 -> 
-  custom:scripting/monoscript/fileName/ILPostProcessorHook.cs: a747a9906e2169592f97c0e530758ac9 -> 
-  custom:scripting/monoscript/fileName/NetworkMessage.cs: 80ce08c2330f0aa36ae9e3b2b14fcbc6 -> 
-  custom:scripting/monoscript/fileName/NetworkWriter.cs: baf68719e973fa00a627e152b0d3f1f1 -> 
-  custom:scripting/monoscript/fileName/WeaverExceptions.cs: 21ff61f3d24fc2c13594250dbe9166db -> 
-  custom:scripting/monoscript/fileName/NetworkIdentity.cs: 038b12431ef6044466be1e3f59dd4060 -> 
-  custom:scripting/monoscript/fileName/SessionGet.cs: a321b91cd40821f9b18fdb2c08adda0a -> 
-  custom:scripting/monoscript/fileName/DeployEnvModel.cs: 17dc05f382a71e9977ca9942e8ef5fda -> 
-  custom:scripting/monoscript/fileName/Connection.cs: 266f0973be396bfad374a669d4c48ed5 -> 
-  custom:scripting/monoscript/fileName/AppVersionUpdatePatchData.cs: bb7b91d0c616e6f654f9262cdca8db33 -> 
-  custom:scripting/monoscript/fileName/MatchmakerComponentListResponse.cs: 204da5c92ee92886b8bcb6fe55ea3256 -> 
-  custom:scripting/monoscript/fileName/EdgegapScriptEditor.cs: 6256f45d7e379a4137fbe3b007a8a6a9 -> 
-  custom:scripting/monoscript/fileName/TimeoutAuthenticator.cs: b3248a48c807b3f42b2a7b4b7dbcaaba -> 
-  custom:scripting/monoscript/fileName/MatchmakerListResponse.cs: b72f280f1ab3c5178feb81082e77874f -> 
-  custom:scripting/monoscript/fileName/GraphicSettingsYG.cs: 2a7994f6183653c77cc5171ff2b710d3 -> ec6cd093c320068bb15152494ccb137b
-  custom:scripting/monoscript/fileName/PhysicsCollision.cs: 4bb09b423799f537a59a8e5cb5618e10 -> 
-  custom:scripting/monoscript/fileName/Npc.cs: 896e5a608e5045820c82d2dc04195aa5 -> 
-  custom:scripting/monoscript/fileName/CustomSessionModel.cs: a9fff544e5e5b40701cad5d88d67209e -> 
-  custom:scripting/monoscript/fileName/Vector3Long.cs: 8c622254a6266325888f7883072cccad -> 
-  custom:scripting/monoscript/fileName/Tank.cs: 6c8c843ca19bf863d3f3fc6c53b69cc8 -> 
-  custom:scripting/monoscript/fileName/MatchmakerComponentEnvListResponse.cs: 46989c589ac6af1588b64dd4123db37d -> 
-  custom:scripting/monoscript/fileName/ApplicationPatch.cs: 3c741c11ee3836932f5a0a2275a32b1c -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/Extensions.cs: 701e6752ce5fba2aa0da34c497ba0d0e -> 
-  custom:scripting/monoscript/fileName/SyncDictionary.cs: 34c6ff9cf0aa0d720e612550af5c5d26 -> 
-  custom:scripting/monoscript/fileName/ServerHandshake.cs: 2e439079df96747bdf4335b3f7234d73 -> 
-  custom:scripting/monoscript/fileName/AdWhenLoadingGame.cs: ec69c384c45ec28c4feb22d25e4dfab5 -> 78199b84652cbdf193eca9debe741579
-  custom:scripting/monoscript/fileName/MatchmakerComponentResponse.cs: 52605bb31364363e476f35014d8a7fd2 -> 
-  custom:scripting/monoscript/fileName/SimpleWebServer.cs: b188b34a375c0a4a2b1fd3da1ff05f93 -> 
-  custom:scripting/monoscript/fileName/ConnectionState.cs: b29d8b192fee9a48823ef532c38c04ca -> 
-  custom:scripting/monoscript/fileName/SimpleWebClient.cs: 346d6363ecb0f6e2eb47c2b1cc4f858d -> 
-  custom:scripting/monoscript/fileName/NetworkRigidbodyReliable.cs: 8a642f04fc0880d3233a0e7dae1fb73a -> 
-  custom:scripting/monoscript/fileName/NetworkManager.cs: d91a0e7933f5b7b7072801136d1a8af7 -> 
-  custom:scripting/monoscript/fileName/CellGUI.cs: 8fd5082caf5d7cb7b596e24fa7aa4823 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/EdgegapHttpResult.cs: 5aa261b581c8b2dff9505e9fad9ec6e0 -> 
-  custom:scripting/monoscript/fileName/PlayerPredicted.cs: d088f1dd2d8993fa6d53b51335f1bd35 -> 
-  custom:scripting/monoscript/fileName/Portal.cs: 03e6000feda87a83eca006082317e0b2 -> 
-  custom:scripting/monoscript/fileName/CanvasController.cs: e3639e666d7c143be10c64b43db32fba -> 
-  custom:scripting/monoscript/fileName/MonsterMovement.cs: e46c17bbae663f22b875eb04148db8c4 -> 
-  custom:scripting/monoscript/fileName/NetworkManagerPong.cs: 6f55767d442eacf0783c2a7eb6f32df8 -> 
-  custom:scripting/monoscript/fileName/AppVersionUpdateSessionConfig.cs: e4535e84649902b2b36dccc99f8c483a -> 
-  custom:scripting/monoscript/fileName/Capture.cs: 8507009d9b348d19fabeeb4dde18f716 -> 
-  custom:scripting/monoscript/fileName/ILPostProcessorReflectionImporterProvider.cs: cde97c9ffa6e6ef39fd9e32a35a9c836 -> 
-  custom:scripting/monoscript/fileName/NetworkRigidbodyUnreliable.cs: c47f5befc8e53680005ff3183ee794f0 -> 
-  custom:scripting/monoscript/fileName/GetYourPublicIpResult.cs: 873c283c15b799ef160892d3fb8c0de9 -> 
-  custom:scripting/monoscript/fileName/Weaver.cs: ac4f413dcf15c94e9d52b48abb6274e6 -> 
-  custom:scripting/monoscript/fileName/NetworkBehaviour.cs: 8440a724ff6ea0842b5ce8a27299d75d -> 
-  custom:scripting/monoscript/fileName/ChatAuthenticator.cs: cab695d0ffd3c121e8d1c2785c638a18 -> 
-  custom:scripting/monoscript/fileName/TelepathyTransport.cs: bb4e06cf53dca40dea93d97bbf6becdb -> 
-  custom:scripting/monoscript/fileName/SelectorModel.cs: 87e32372a31436fd7df13e3d21633a44 -> 
-  custom:scripting/monoscript/fileName/TimeSnapshot.cs: e2a6b05b01a4152cab187eb3a6e3e032 -> 
-  custom:scripting/monoscript/fileName/MatchController.cs: e28c1719ab8f5a084ff10e442a52f430 -> 
-  custom:scripting/monoscript/fileName/EdgegapKcpServer.cs: fc10e2ed5f3910aab8da32ebc8246d11 -> 
-  custom:scripting/monoscript/fileName/MetricsModel.cs: eea0cd2d84527e68eeb5f9a2efce3617 -> 
-  custom:scripting/monoscript/fileName/AndroidManifestHelper.cs: 57b91b0caa19669d716c1108930623fd -> 
-  custom:scripting/monoscript/fileName/MultiplexTransport.cs: 471660b07a1e843c92724a4d50bf98ff -> 
-  custom:scripting/monoscript/fileName/MatchmakerReleaseConfigResponse.cs: d0404b81edf331425b7d8135a6e69deb -> 
-  custom:scripting/monoscript/fileName/MatchmakerReleaseUpdate.cs: cbad8f640f2157aa7756e6e5346dad2b -> 
-  custom:scripting/monoscript/fileName/SessionDelete.cs: 0249d011a32397986921a98bc8685b8f -> 
-  custom:scripting/monoscript/fileName/PatchSessionModel.cs: 56540196c2c60160d6339093100e33e5 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/NetworkAuthenticator.cs: cc1697e0bdc7bb30881c4f151428b5ef -> 
-  custom:scripting/monoscript/fileName/ServerClientAttributeProcessor.cs: 1892bb217f4afdfcfbcae7a83e5cf10d -> 
-  custom:scripting/monoscript/fileName/Payments_yg.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/RelayCredentialsFromArgs.cs: 2678a128a9678fe7a96c8633b9bd84df -> 
-  custom:scripting/monoscript/fileName/NetworkBehaviourInspector.cs: 82e3c41c9eb23993e58b518e3af3ca3b -> 
-  custom:scripting/monoscript/fileName/CanvasReferencer.cs: 6d4c735eafc8bb4ad71c12b47464ed5c -> 
-  custom:scripting/monoscript/fileName/Logger.cs: e8949ebab84d0552316736ee6f1040a4 -> 
-  custom:scripting/monoscript/fileName/Prediction.cs: edd6a3a9f90a3b544062a9fb6e29fe64 -> 
-  custom:scripting/monoscript/fileName/TcpConfig.cs: 4f72035e2cc19e12dfafcc9943df3671 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/LanguageYGEditor.cs: 7c93c36edb300a34ee0ac60c8cc98540 -> 69b36766d269144addf6000cd207b798
-  custom:scripting/monoscript/fileName/NetworkLobbyPlayer.cs: bed3a0808f0ac753faa8c5088ee113a1 -> 
-  custom:scripting/monoscript/fileName/Unbatcher.cs: 28e692bf35a5dda10b6bc29fea883d42 -> 
-  custom:scripting/monoscript/fileName/AdditiveNetworkManager.cs: db5417cbe7ce2650abde9f742fadc3b7 -> 
-  custom:scripting/monoscript/fileName/FPS.cs: d3a92d1d4d68ee8dc0ee481f17d9991f -> 
-  custom:scripting/monoscript/fileName/NetworkAnimator.cs: 41d87751c5c234889f0893b27a3a4933 -> 
-  custom:scripting/monoscript/fileName/ServerStatus.cs: bfe247fc3e58335e65a3ec4244de773d -> 
-  custom:scripting/monoscript/fileName/IMoveWrapper.cs: b1f02f80344593689a6f4f9fcc2901d9 -> 
-  custom:scripting/monoscript/fileName/SyncObject.cs: b07c166938577edbbe78eff10ab55e19 -> 
-  custom:scripting/monoscript/fileName/EdgegapWindowMetadata.cs: 282a7dfbb195a1ba48b17942d0342454 -> 
-  custom:scripting/monoscript/fileName/DebuggingModeYG.cs: f6b612334d36c6950649bd889e18908e -> 3b4ead49d1c6f7855aab30f7dd9df828
-  custom:scripting/monoscript/fileName/NetworkWriterExtensions.cs: d048f831a5dcefd496237f00b98d9c53 -> 
-  custom:scripting/monoscript/fileName/NetworkManagerHUD.cs: 1e093facfc85e4c1ea9afc2672bcdc88 -> 
-  custom:scripting/monoscript/fileName/Capture2D.cs: 25a3d41a8def9c24c4165128c8b8a1a9 -> 
-  custom:scripting/monoscript/fileName/DeployModel.cs: c69943339b663e7636d4cdb2ab8e0a71 -> 
-  custom:scripting/monoscript/fileName/Server.cs: 0e04c19a309d886c88a4074c47c4671d -> 
-  custom:scripting/monoscript/fileName/NetworkReaderExtensions.cs: 87391179a286fd4cca02e977d5a7d177 -> 
-  custom:scripting/monoscript/fileName/LocalStorage_yg.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/NetworkDiagnostics.cs: 107c87df5e3e205f2344fa0c2d102e35 -> 
-  custom:scripting/monoscript/fileName/MatchmakerUpdate.cs: 0149b4e6201aeee54a741473a0bf839d -> 
-  custom:scripting/monoscript/fileName/RedBall.cs: 06be676e9af01a08b913a9faa47719b0 -> 
-  custom:scripting/monoscript/fileName/GetPlayerData.cs: 972f089947e804812f8e701d297b4be2 -> 428f1d086bbbecc71b3d982d20eae81c
-  custom:scripting/monoscript/fileName/Writers.cs: 4626540f656e408baa64ea8967dcc5b6 -> 
-  custom:scripting/monoscript/fileName/ClientSslHelper.cs: d5ccdaff5489b5e16f3b9a6d450fe393 -> 
-  custom:scripting/monoscript/fileName/SimpleWebTransport.cs: 31a687e1db13fac9a395e4617d5280a5 -> 
-  custom:scripting/monoscript/fileName/PredictedRigidbody.cs: 9827fddcacc213521ea5c7e1349f6c76 -> 
-  custom:scripting/monoscript/fileName/NetworkLoop.cs: e5245a4507af62b421679a7f9f1b00e4 -> 
-  custom:scripting/monoscript/fileName/SwitchSceneTest.cs: 6c9897e8ca5b4cec3df7b89befc81367 -> fc99897cf4c9a4f88d8ac178001e8c80
-  custom:scripting/monoscript/fileName/BaseGUIGame.cs: 78a4a7727f994507769e27482510dd28 -> 
-  custom:scripting/monoscript/fileName/ConcurrentNetworkWriterPool.cs: abb399a25dbb489d419a6ce42a382ea7 -> 
-  custom:scripting/monoscript/fileName/CreateDeploymentResult.cs: 1a6071b31e7a2a9c41baa9c08e87e7d9 -> 
-  custom:scripting/monoscript/fileName/NetworkConnectionToClient.cs: d65f1f9f3708c53dae336dec75e13a95 -> 
-  custom:scripting/monoscript/fileName/SimulationTimer.cs: f38e1d01c0d8a18e879f6c490778c9be -> 
-  custom:scripting/monoscript/fileName/NetworkReaderPool.cs: bd6e83a809032479981f337ca5fc662f -> 
-  custom:scripting/monoscript/fileName/Storage_yg.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/ModifyBuildManager.cs: ec69c384c45ec28c4feb22d25e4dfab5 -> 78199b84652cbdf193eca9debe741579
-  custom:scripting/monoscript/fileName/DefineSymbols.cs: d057c9f597bd8f19eef3a634f2259aa5 -> a871c78dd5dbc75e53b2f7d314f1889a
-  custom:scripting/monoscript/fileName/CCUNetworkManager.cs: 6c47158487d6f80a126871dd1b22cd9b -> 
-  custom:scripting/monoscript/fileName/FaceCamera.cs: 39405901992def24a06521b93e09e66f -> 
-  custom:scripting/monoscript/fileName/ClientCube.cs: 84cc491c0553cc84240446fc5457ce6c -> 
-  custom:scripting/monoscript/fileName/LanguageYG.cs: a08c9186d9a3bbe6d219a34e12540ca7 -> aa80e7662e0e143ec7e243077670e8d6
-  custom:scripting/monoscript/fileName/ConditionallyVisibleAttribute.cs: e553659c65c4010878015a74d65519c3 -> e72d76a922e68d66321a72076a1803ff
-  custom:scripting/monoscript/fileName/PauseableSimulationTimer.cs: 920ecfb5cb830d81cc585816e719c263 -> 
-  custom:scripting/monoscript/fileName/HttpEncoder.cs: 9c0fb1b9ab636a6f5273862ac766ecb8 -> 
-  custom:scripting/monoscript/fileName/BaseModel.cs: 8948e20c7840c8a9f7e107ea953a6539 -> 
-  custom:scripting/monoscript/fileName/SavesYG.cs: 5e27dd2712329124eed3d95a83f55227 -> c497cdc187148548f5d9a620311f9dc3
-  custom:scripting/monoscript/fileName/NetworkRigidbodyReliable2D.cs: 229465a1834d079377c94fddd3773c2f -> 
-  custom:scripting/monoscript/fileName/YandexMetrica.cs: 2714dde01bbec8e2d15aef5b37d79a80 -> b67136f2b82c2da200dc742d5c8280a3
-  custom:scripting/monoscript/fileName/PubKeyInfo.cs: 9ada572037f7452dc2380dbbcdadddcd -> 
-  custom:scripting/monoscript/fileName/ConcurrentNetworkWriterPooled.cs: 8abfa3a92a6af1628b91124d1b393bb2 -> 
-  custom:scripting/monoscript/fileName/UtilsLang.cs: e6b31e1bf8261232468381f500955624 -> a843657d53633625a7484508e23e1b0f
-  custom:scripting/monoscript/fileName/WhiteBall.cs: 73f54b2811a05f244a1ef7a99f34a6a2 -> 
-  custom:scripting/monoscript/fileName/CloudStorage_build.cs: ec69c384c45ec28c4feb22d25e4dfab5 -> 78199b84652cbdf193eca9debe741579
-  custom:scripting/monoscript/fileName/ILPostProcessorReflectionImporter.cs: 3b11744f779a4be57c81b8d5cb01bd7c -> 
-  custom:scripting/monoscript/fileName/DocumentationEditor.cs: b953f353822c562df6d47f4b9d6583cf -> 1503895b038bccbaa44d3eb2bc6bed25
-  custom:scripting/monoscript/fileName/SyncVarAttributeDrawer.cs: da5bc5ac6227a918ba459ee103086fe7 -> 
-  custom:scripting/monoscript/fileName/CouchPlayer.cs: 363f16227d0e75ba9a07124663a63762 -> 
-  custom:scripting/monoscript/fileName/Pagination.cs: e97924997d06fcb2619b1fcf64af5551 -> 
-  custom:scripting/monoscript/fileName/LangYGAdditionalText.cs: 64e0418f25d5764c3536346cc7b39495 -> 76af3ccd7adaa9f30888d28a6319face
-  custom:scripting/monoscript/fileName/Readers.cs: 98c834c0961a8df89bd3eae1a1950665 -> 
-  custom:scripting/monoscript/fileName/FadeInOut.cs: 4451c8c9d9098021eb3585619f74c9b8 -> 
-  custom:scripting/monoscript/fileName/LatencySimulation.cs: b5839e62bba10ef46880cf80ebdbbdf4 -> 
-  custom:scripting/monoscript/fileName/CompiledAssemblyFromFile.cs: 21781b78bc9a110ad575ff044ac85b77 -> 
-  custom:scripting/monoscript/fileName/GUIConsole.cs: 4b8ce8ff8ba83f76e9a9cc34df366a15 -> 
-  custom:scripting/monoscript/fileName/EncryptionTransport.cs: 8e87a6437fed13697d09b6862b603e1e -> 
-  custom:scripting/monoscript/fileName/NetworkServer.cs: 919b11044b951633be0cecb88d457796 -> 
-  custom:scripting/monoscript/fileName/InitExample.cs: fa7e2bc8d3099c075964ca22d2924b76 -> 19d711c61e5652ab02bc0d437f5eb58c
-  custom:scripting/monoscript/fileName/GetRegistryCredentialsResult.cs: 96f811a978baf11f9aa92486ab392b89 -> 
-  custom:scripting/monoscript/fileName/NetworkLobbyManager.cs: ddd52cc92dc60bdb5ca8010fd6e5c59d -> 
-  custom:scripting/monoscript/fileName/ReadHelper.cs: ad197d9a543340f2646e9b8ad831f458 -> 
-  custom:scripting/monoscript/fileName/LocationModel.cs: 89e5e8630402d3b9b4f5cc5c6c50b8f4 -> 
-  custom:scripting/monoscript/fileName/NetworkDiagnosticsDebugger.cs: 1cb9d5e5c08d9bb2638da0f3d771adf3 -> 
-  custom:scripting/monoscript/fileName/AppVersionUpdate.cs: fb0ea8c583eb8d906706bec1a6321d47 -> 
-  custom:scripting/monoscript/fileName/ILPostProcessorLogger.cs: ccd122ea4a46a2a2da52b8b69555345e -> 
-  custom:scripting/monoscript/fileName/MatchNetworkManager.cs: ce5c67da13013adeb83778c99f345446 -> 
-  custom:scripting/monoscript/fileName/ClientWebsocketSettingsDrawer.cs: df6d4be4e6b340be3b7c95e3f50a8505 -> 
-  custom:scripting/monoscript/fileName/LagCompensation.cs: 42fb07afcd977255722b6f929fc23099 -> 
-  custom:scripting/monoscript/fileName/JsonUtils.cs: 71e2b70c923a17f3d899617025b73df5 -> cedb312f5f3ff9c7b4b6ca5ac5fa29d6
-  custom:scripting/monoscript/fileName/TypeReferenceComparer.cs: 6517d8f37999882a9d53835170a53a24 -> 
-  custom:scripting/monoscript/fileName/SceneDrawer.cs: b3b46522af8447165d0f7a22bcf42121 -> 
-  custom:scripting/monoscript/fileName/CustomBulkSessionModel.cs: a4647a3f4bc1e0da1d0ff0f1019560b6 -> 
-  custom:scripting/monoscript/fileName/HttpUtility.cs: a9d2489f8790ce1b2d83d73ee33bf191 -> 
-  custom:scripting/monoscript/fileName/SessionData.cs: 1d0df581745cea45c6566efa275a5b71 -> 
-  custom:scripting/monoscript/fileName/ReceivingPurchaseExample.cs: fd9f2ef05fe4f7a65cbe3ee7999bfd88 -> 7333983389633997aa1d67250b10de55
-  custom:scripting/monoscript/fileName/PortMapping.cs: 9531fbd9bf88436cad087bc73591ca54 -> 
-  custom:scripting/monoscript/fileName/ComponentCredentials.cs: 4b50d0fe3828967b647b34d1cd2e5ab3 -> 
-  custom:scripting/monoscript/fileName/ArchivingBuild.cs: e5ee30cd0bc341ba6844756b615987b6 -> 3bcef428b7969c7f14356c031dd3632b
+  custom:scripting/monoscript/fileName/BindsData.cs: c8c96e645d44e31b4af20c5886548476 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/KcpPeer.cs: e428df90c5205b4ef23c187b92a8f0b4 -> 
-  custom:scripting/monoscript/fileName/NetworkStatistics.cs: 52971cb50eeda968d3342ff169083f12 -> 
-  custom:scripting/monoscript/fileName/EdgegapErrorResult.cs: 33a39a835ea31d3f2b960892195de833 -> 
-  custom:scripting/monoscript/fileName/UtilsLB.cs: f27ea26ffaaabf376d700b0160dacdbf -> 7043cdd778b62c006fd4d64f48b3f056
-  custom:scripting/monoscript/fileName/MatchmakerCreate.cs: 9e33f8f11ac11618df141791973e21f7 -> 
-  custom:scripting/monoscript/fileName/ToolState.cs: 94626a01950ccf61d5fa8fba8541ab12 -> 
-  custom:scripting/monoscript/fileName/ReadOnlyDrawer.cs: 1b01ba0fdac51367136f0c02def7d074 -> 
-  custom:scripting/monoscript/fileName/BenchmarkNetworkManager.cs: a6cdb298f3627d3e516dc67426937cf0 -> 
-  custom:scripting/monoscript/fileName/MatchmakerReleaseUpdateBase.cs: acaa4f0a4e54891604383bb6117b370b -> 
-  custom:scripting/monoscript/fileName/AppVersionWhitelistEntry.cs: eb42b23bd845ce079b29cccef8630b84 -> 
-  custom:scripting/monoscript/fileName/TransformSyncData.cs: 653ab621b05958d26afb49c48d18b1c1 -> 
-  custom:scripting/monoscript/fileName/NetworkRoomManager.cs: 494508b564b1ff6776f6c13333a1bb05 -> 
-  custom:scripting/monoscript/fileName/NetworkClient_TimeInterpolation.cs: ef1ad270d4a7517fd29d5478b7f63666 -> 
-  custom:scripting/monoscript/fileName/ClientWebsocketSettings.cs: 1ac53d2de74bb1d0b667e7d575d1a6fb -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ShootingTankBehaviour.cs: edb3159cc6aafb4ce61ad4f4c69f57d0 -> 
-  custom:scripting/monoscript/fileName/NetworkReader.cs: 75ab3d56e07f307a72806d1ff25d96df -> 
-  custom:scripting/monoscript/fileName/PackageDownloader.cs: 139996aba89e922467487f6c1ee7d303 -> 227b797beb166dae84e0ab5d70feab17
-  custom:scripting/monoscript/fileName/BasicNetManager.cs: 5d6080b96dfe12681f908ba793cbfdcb -> 
-  custom:scripting/monoscript/fileName/NetworkMetricsModel.cs: e91a1ba122321aa4d2809cbbf126e885 -> 
-  custom:scripting/monoscript/fileName/SimpleWebJSLib.cs: e193ec1d020d474578c4075456b80159 -> 
-  custom:scripting/monoscript/fileName/InterestManagementBase.cs: 325206f73b39abd96883852fd835f4e6 -> 
-  custom:scripting/monoscript/fileName/PredictedRigidbodyPhysicsGhost.cs: cb634e5fc150a3a14f2ee2b26e8ee1dd -> 
-  custom:scripting/monoscript/fileName/NetworkMessages.cs: e94c91437106b318de2d9c0eada72e32 -> 
-  custom:scripting/monoscript/fileName/AppVersionWhitelistEntryPayload.cs: c9b8ffa29b8f71cf60e171ba5cb11010 -> 
-  custom:scripting/monoscript/fileName/ActivityOnAuthorizationYG.cs: 5127106102a2e65899f72fa2364c3fa8 -> 2c436e77d90423590fb820d3409d0cfa
-  custom:scripting/monoscript/fileName/LocalConnectionToServer.cs: 37e998a5bb67ece85e47c3c0ee14c47d -> 
-  custom:scripting/monoscript/fileName/PredictionUtils.cs: 2cce28d1b12486ebe62b736a7ce51a2e -> 
-  custom:scripting/monoscript/fileName/MatchmakerComponentEnvsResponse.cs: a31eeb7a49d582a1a3d002187517bb43 -> 
-  custom:scripting/monoscript/fileName/LoginUI.cs: 1285b4e25a006347eead602171538fec -> 
-  custom:scripting/monoscript/fileName/Error.cs: 2484cb8f9a3f167aca980f4a40e19d04 -> 
-  custom:scripting/monoscript/fileName/AccurateInterval.cs: fab3391ee28be19bd87c4f3910e41076 -> 
-  custom:scripting/monoscript/fileName/WeaverFuse.cs: 50be349553fb7b8865340004eb6bef66 -> 
-  custom:scripting/monoscript/fileName/HostMode.cs: d08d9979a8ad9460da50cadec32877e7 -> 
-  custom:scripting/monoscript/fileName/HistoryBounds.cs: 1d353857fa08c2895e8ab5378a7caf4f -> 
-  custom:scripting/monoscript/fileName/Messages.cs: 5fbafd1ca521f6758d9102b347df42ad -> 
-  custom:scripting/monoscript/fileName/BulkSessionDelete.cs: cbe5308e8e55699caf456e82c9a0bbda -> 
-  custom:scripting/monoscript/fileName/RewardedAd.cs: d3315249a8b17c98b1bfa109a2db3dfc -> d104a937d14f5fd1b94d3091de26e503
-  custom:scripting/monoscript/fileName/MetricsResponse.cs: 1c773c25f84b6e4e7b8d278603119290 -> 
-  custom:scripting/monoscript/fileName/MatchmakerManagedReleaseResponse.cs: a16bb85b71852f51dafeb166c57b5c58 -> 
-  custom:scripting/monoscript/fileName/KcpTransport.cs: 910f0a8412eff0bbc9de3de0be3fb218 -> 
-  custom:scripting/monoscript/fileName/ClientHandshake.cs: 0352ecd48a4b3174e635a7faf890584c -> 
-  custom:scripting/monoscript/fileName/SaveQuitGame.cs: ec69c384c45ec28c4feb22d25e4dfab5 -> 78199b84652cbdf193eca9debe741579
-  custom:scripting/monoscript/fileName/LBPlayerDataYG.cs: 30f630e3a1898ed1826cd15ea9c05415 -> 7043932379e6a4d927e1a0feb40bbfb1
-  custom:scripting/monoscript/fileName/EdgegapWindowV2.cs: 3dc975bb5d132551304f6ce7474bb197 -> 
-  custom:scripting/monoscript/fileName/LogoFormat.cs: ec69c384c45ec28c4feb22d25e4dfab5 -> 78199b84652cbdf193eca9debe741579
-  custom:scripting/monoscript/fileName/ApiEnvironment.cs: d3d66b60a350d37063cb3f2e141c1784 -> 
-  custom:scripting/monoscript/fileName/Message.cs: c390c7778ca729db80d96965f19e5acf -> 671a789acb2c7a93d0b620fe02979957
-  custom:scripting/monoscript/fileName/Protocol.cs: fc66b760bf5019554526e9e1b30b16d1 -> 
-  custom:scripting/monoscript/fileName/SessionContext.cs: 701096ecc8468cabf29769c78bfe1469 -> 
-  custom:scripting/monoscript/fileName/ZoneHandler.cs: 3288b908b26ba5b09322fa43ed2371c3 -> 
-  custom:scripting/monoscript/fileName/BulkSessionPost.cs: 6294383bebe11f63a694a52eac6f6215 -> 
-  custom:scripting/monoscript/fileName/SyncList.cs: 34c6ff9cf0aa0d720e612550af5c5d26 -> 
-  custom:scripting/monoscript/fileName/SyncObjectProcessor.cs: 70d81b94f36b1d92376b2a7e46874701 -> 
-  custom:scripting/monoscript/fileName/MinMaxBounds.cs: ec011bfe695b2e7567662c76b7fb78d3 -> 
-  custom:scripting/monoscript/fileName/FontMasseInstallEditorWindow.cs: 31a0dc7284d6b58c417577d309da5c02 -> f1c05f8e6ca79691c653130ea1010893
-  custom:scripting/monoscript/fileName/ConditionallyVisiblePropertyDrawer.cs: c2f098d7e5cf478bde454b198b8c67ef -> b67c8cd50e4c093d7a36994e5e4e8d4d
-  custom:scripting/monoscript/fileName/MonoBehaviourProcessor.cs: 454d77bcb44c3a393871f7ca0fdfa9b1 -> 
-  custom:scripting/monoscript/fileName/WebSocketClientStandAlone.cs: 03077646051725752077bec774d8a716 -> 
-  custom:scripting/monoscript/fileName/SessionUser.cs: eee97e32e0903a5a9716ffa2fc428521 -> 
-  custom:scripting/monoscript/fileName/DeploymentSessionContext.cs: a65d9ac61bb9fe18d252f1afc8fe6b5b -> 
-  custom:scripting/monoscript/fileName/EdgegapWizardApi.cs: cee493beb0417d4688ca05f49317e4b4 -> 
-  custom:scripting/monoscript/fileName/Log.cs: b57bf2c214d2b5b4061b48134b24edc4 -> 
-  custom:scripting/monoscript/fileName/BufferPool.cs: b16d8f44d55d9351af4823e2f2bd7e47 -> 
-  custom:scripting/monoscript/fileName/Player.cs: 83c44cd93aad0a2c77202fbd08779bba -> 
-  custom:scripting/monoscript/fileName/NetworkClient.cs: ef1ad270d4a7517fd29d5478b7f63666 -> 
-  custom:scripting/monoscript/fileName/PlayerEmpty.cs: 6e1608cfe75bf2e2da289502676db27a -> 
-  custom:scripting/monoscript/fileName/ReaderWriterProcessor.cs: 0930e498f6841b8b7dc8c30a29b7fd3d -> 
-  custom:scripting/monoscript/fileName/MatchGUI.cs: d6f590e2a619bab1c8d973037d5772a5 -> 
-  custom:scripting/monoscript/fileName/PlayerMovement.cs: b7ede9d9248141c90285801ec72d5ab9 -> 
-  custom:scripting/monoscript/fileName/KcpServerConnection.cs: 49ae3c76ca0a19ceb1bc44ae741fb83d -> 
-  custom:scripting/monoscript/fileName/NetworkRoomPlayer.cs: 7d60c09e69e4f5d7442c8c19de954959 -> 
-  custom:scripting/monoscript/fileName/EdgegapApiBase.cs: 79c9b7adb842af8a80c18e23fa72be40 -> 
-  custom:scripting/monoscript/fileName/PurchaseYG.cs: de1b4d9ec9e47dddf868521152447c34 -> 6c9df26d4f9b2a965b973c548a7321bc
-  custom:scripting/monoscript/fileName/ConnectionQuality.cs: 4658e89afeb46effd7cb9aa12810acf2 -> 
-  custom:scripting/monoscript/fileName/AppVersionCreateSessionConfig.cs: 4213526b21bb32d81f9865791f817fd9 -> 
-  custom:scripting/monoscript/fileName/GeoIpListModel.cs: 0339fa1ac21e67fd6c132101b3ef4c96 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/SinMoveYWrapper.cs: ce002e2439c6e0dd5ae1134bbe4e17ea -> 
-  custom:scripting/monoscript/fileName/MiddlewareTransport.cs: 3bd6eb64ef77a0ed7d61fa8f8fbf81e4 -> 
-  custom:scripting/monoscript/fileName/NetworkDiscovery.cs: a192d858c58edcf9b7ec0c4965607e10 -> 
-  custom:scripting/monoscript/fileName/LocationData.cs: e185c4fcb9010e85d86ea1f87de6ee9b -> 
-  custom:scripting/monoscript/fileName/CreateAppVersionRequest.cs: d532fd884bcb1f7be10d16ab2adfc070 -> 
-  custom:scripting/monoscript/fileName/Constants.cs: 373f1858875f685f6668b9ceaa9bf60d -> 
-  custom:scripting/monoscript/fileName/CanvasUI.cs: ddd9aada75ed03f911671359bbe63140 -> 
-  custom:scripting/monoscript/fileName/WebSocketServer.cs: 1140a3d8e9a050b25df98184b315c508 -> 
-  custom:scripting/monoscript/fileName/RemoteCalls.cs: 463b3e478d8e77170004333df4c45412 -> 
-  custom:scripting/monoscript/fileName/ReceiveLoop.cs: b2d18575cac69489f442ee9fa8f3ee6a -> 
-  custom:scripting/monoscript/fileName/LagCompensationSettings.cs: c2fcfe5dd40f3acff0952ddaeb05c1d3 -> 
-  custom:scripting/monoscript/fileName/WhiteBallPredicted.cs: 7c0c6b37ce06ee43f262719d3d26a360 -> 
-  custom:scripting/monoscript/fileName/LoadGameRun.cs: ec69c384c45ec28c4feb22d25e4dfab5 -> 78199b84652cbdf193eca9debe741579
-  custom:scripting/monoscript/fileName/MultiSceneNetManager.cs: ac51e29e92d79d0bbc062e6d78db113f -> 
-  custom:scripting/monoscript/fileName/NetworkConnection.cs: b96866a7134fd27a6ca479020bc4e325 -> 
-  custom:scripting/monoscript/fileName/ChatUI.cs: 9c2ad8db7b77869a80d0b33150a804f3 -> 
-  custom:scripting/monoscript/fileName/SaverTest.cs: 12bdbd161227706a0395df1b47799aca -> c123bb9d6f5a2d7fe9756cb8bcb80cc6
-  custom:scripting/monoscript/fileName/NetworkConnectionToServer.cs: e99bd7259600fa433fcad906c9a66281 -> 
-  custom:scripting/monoscript/fileName/Attributes.cs: 6c74079e9f5143f44f207410894b55bf -> 0918f2ac579e1d4ee97c23132d40c768
-  custom:scripting/monoscript/fileName/Delete.cs: d9eb1b15a88f07fc21aa873323b1ff18 -> 
-  custom:scripting/monoscript/fileName/LanguageExample.cs: 2f157033ecf044d8e02cf8d851e4c782 -> 644d69f35bd3e94d114b9c25b23e76de
-  custom:scripting/monoscript/fileName/Pool.cs: 746c2793a1542f45df69a229f5186413 -> 
-  custom:scripting/monoscript/fileName/UpsertAppVersionResult.cs: 6a96a5f8c15df93dced90a45c44ac3ed -> 
-  custom:scripting/monoscript/fileName/Snapshot.cs: fc6468891406c4fd15824746c427903d -> 
-  custom:scripting/monoscript/fileName/AckItem.cs: a25631ead17eec214d641af0345c2e49 -> 
-  custom:scripting/monoscript/fileName/TotalMetricsModel.cs: c57d83e5698cb9baef66d83799cde3a8 -> 
-  custom:scripting/monoscript/fileName/ServerSslHelper.cs: 9066a5050d723992b5f8ada8fa6bc74c -> 
-  custom:scripting/monoscript/fileName/GetPlayerYG.cs: a455a5a4fc43be3d11ef11b41407b784 -> 52ad5a9969a7bbf01d942b1373ca1b88
-  custom:scripting/monoscript/fileName/ILPostProcessorAssemblyResolver.cs: f0ec9684511913b00987cc4c6b6c5444 -> 
-  custom:scripting/monoscript/fileName/AppVersionWhitelistResponse.cs: 6d6411369186f488cddcc4350ee5f393 -> 
-  custom:scripting/monoscript/fileName/MatchmakerReleaseResponseBase.cs: b9e2494bcf877867bb004402f78686da -> 
-  custom:scripting/monoscript/fileName/WebSocketClientWebGl.cs: 893f1930c64d29c51dd0d49d07dd81cf -> 
-  custom:scripting/monoscript/fileName/SineMoveRandomBehaviour.cs: 60ea3e79cb98dde29fe58cc78e4cea3d -> 
-  custom:scripting/monoscript/fileName/TimeSample.cs: 636c9ea3f90163897fefe22bba2f7400 -> 
-  custom:scripting/monoscript/fileName/NetworkWriterPooled.cs: daa0b870fbcdd09701160e643dfd9ac7 -> 
-  custom:scripting/monoscript/fileName/PlayerGUI.cs: fe295633c682ad32155e2649b7b822ee -> 
-  custom:scripting/monoscript/fileName/LookAtMainCamera.cs: 23c6329fbb990e1d9b5b9e9608761548 -> 
-  custom:scripting/monoscript/fileName/EdgegapAppApi.cs: f2cf777921181ce680812cb1062224f2 -> 
-  custom:scripting/monoscript/fileName/NetworkRigidbody.cs: 0048107da53c5dba21539e11b6ddf2dc -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 39125.479237 seconds.
-  path: Assets/Packages/YandexGame/Plugins
-  artifactKey: Guid(fdc92ecedd9120f418c19a3071ee7486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/YandexGame/Plugins using Guid(fdc92ecedd9120f418c19a3071ee7486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bfad6f4c281e3a60caa27a32e45706') in 0.002045 seconds
+  Time since last request: 354012.844038 seconds.
+  path: Assets/Textures/BlocksItems/blocks .png
+  artifactKey: Guid(d8a83359cd562c7409b0e7833e2cbdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/BlocksItems/blocks .png using Guid(d8a83359cd562c7409b0e7833e2cbdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371f714ace5adaa832ffca2201398075') in 0.047540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 42.551746 seconds.
+  path: Assets/Textures/BlocksItems/blocks .png
+  artifactKey: Guid(d8a83359cd562c7409b0e7833e2cbdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/BlocksItems/blocks .png using Guid(d8a83359cd562c7409b0e7833e2cbdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9f748cbb2c2d15f815180e222377a3') in 0.065364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 307.254915 seconds.
+  path: Assets/Palletes/blocks _0.asset
+  artifactKey: Guid(69ca700376443d74e91a6adc8f48cad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palletes/blocks _0.asset using Guid(69ca700376443d74e91a6adc8f48cad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa075fdf2b9ed32eb190ce0f34429787') in 0.022534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Palletes/blocks _2.asset
+  artifactKey: Guid(37e48371b6a023e49b5693c215233365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palletes/blocks _2.asset using Guid(37e48371b6a023e49b5693c215233365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22528a26fd5d8888a2a554f4aa04a497') in 0.010186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Palletes/blocks _3.asset
+  artifactKey: Guid(f6f3f7a755aea0f4584587c3d86fba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palletes/blocks _3.asset using Guid(f6f3f7a755aea0f4584587c3d86fba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94cd59a747d84e27ff41e2def75f25ae') in 0.011740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Palletes/test.prefab
+  artifactKey: Guid(f77670cef68113c4988fa04c6691dc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palletes/test.prefab using Guid(f77670cef68113c4988fa04c6691dc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1757ac9f2cb4228488679cb87cffafc') in 0.051365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palletes/blocks _5.asset
+  artifactKey: Guid(32a81ba485f52304badf5ca5c4ac23f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palletes/blocks _5.asset using Guid(32a81ba485f52304badf5ca5c4ac23f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fedcb75c2fe1ce98fe98b758a7cc64') in 0.008015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palletes/blocks _8.asset
+  artifactKey: Guid(186b92948b54abe428673e2ce8646d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palletes/blocks _8.asset using Guid(186b92948b54abe428673e2ce8646d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc7f9e2748a18eb70920d4b091f402c') in 0.014721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 197.967398 seconds.
+  path: Assets/Palletes/test2/test2.prefab
+  artifactKey: Guid(5e6a1ed4165612a4a961073fbc087cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palletes/test2/test2.prefab using Guid(5e6a1ed4165612a4a961073fbc087cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b77f4dc0a6b1a2b63e7fe3ac3a8257') in 0.010229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 15.128652 seconds.
+  path: Assets/Palletes/test2/test2.prefab
+  artifactKey: Guid(5e6a1ed4165612a4a961073fbc087cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palletes/test2/test2.prefab using Guid(5e6a1ed4165612a4a961073fbc087cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b520ee1e828a930b85a8348793c00369') in 0.005407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 32.876513 seconds.
+  path: Assets/Palletes
+  artifactKey: Guid(4eb8be90bec2aab419de0fcf79570f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palletes using Guid(4eb8be90bec2aab419de0fcf79570f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ae6be28e308442336402c3f796fce6') in 0.000436 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 26.642649 seconds.
-  path: Assets/Scenes/Game.unity
-  artifactKey: Guid(ab3a6ed882ba5fb43b19d11820c9674f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Game.unity using Guid(ab3a6ed882ba5fb43b19d11820c9674f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b3e67b655cd4b97948bd15730f17413c') in 0.054821 seconds
+  Time since last request: 1.389083 seconds.
+  path: Assets/Palletes/test2
+  artifactKey: Guid(502779869e303434987bd7ac4f56e9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palletes/test2 using Guid(502779869e303434987bd7ac4f56e9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f3acc145e6012fb438a4d83923e8c6') in 0.000316 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Leaderboard/LBPlayerDataYG.cs
-  artifactKey: Guid(a183e821a3e219a4385ee48ec1bfabcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Leaderboard/LBPlayerDataYG.cs using Guid(a183e821a3e219a4385ee48ec1bfabcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf27deb7dfff366ef650eced88363542') in 0.030181 seconds
+  Time since last request: 0.080708 seconds.
+  path: Assets/Palletes/test2/blocks _0.asset
+  artifactKey: Guid(c42fe27989109a340933187ef6c81c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palletes/test2/blocks _0.asset using Guid(c42fe27989109a340933187ef6c81c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af6b05b1820c0c22822a7c575313e8d') in 0.005998 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006715 seconds.
+  path: Assets/Palletes/test2/blocks _3.asset
+  artifactKey: Guid(e9c7b363ac139a94aba76354f1d87935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palletes/test2/blocks _3.asset using Guid(e9c7b363ac139a94aba76354f1d87935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e11cefd3b368c6529c766e793278295') in 0.006402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Language/LangYGAdditionalText.cs
-  artifactKey: Guid(cad9e1c02dca6d94884dc2b411fa3262) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Language/LangYGAdditionalText.cs using Guid(cad9e1c02dca6d94884dc2b411fa3262) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c0b68f676be01ddf255d6f28efa980d0') in 0.008477 seconds
+  path: Assets/Palletes/test2/blocks _6.asset
+  artifactKey: Guid(b856ac82e48863747b9f2679d64d5e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palletes/test2/blocks _6.asset using Guid(b856ac82e48863747b9f2679d64d5e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08900981b7e79130cef7ab44b6252ed') in 0.007638 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Authorization/Plugins/Auth.jslib
-  artifactKey: Guid(36f934350d0e92448a0f1e7b62c00341) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Authorization/Plugins/Auth.jslib using Guid(36f934350d0e92448a0f1e7b62c00341) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f9bb9ecd913874dd84f97da7ce835fa') in 0.014770 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Palletes/test2/blocks _4.asset
+  artifactKey: Guid(364fd80ee865735498d2d51c9054da78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palletes/test2/blocks _4.asset using Guid(364fd80ee865735498d2d51c9054da78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6795f0e9f1639511757f0ba23c0790b5') in 0.008164 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/TimerBeforeAdsYG.cs
-  artifactKey: Guid(9c70c93a5ff1043419125d7cff580a7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/TimerBeforeAdsYG.cs using Guid(9c70c93a5ff1043419125d7cff580a7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cc4e97131858f8478ed732587a07b721') in 0.008433 seconds
+  path: Assets/Palletes/test2/blocks _10.asset
+  artifactKey: Guid(d41f88ec43d6aaa478777b1dbdd3d52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palletes/test2/blocks _10.asset using Guid(d41f88ec43d6aaa478777b1dbdd3d52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e0b8395f7737a7cd19b656b17e1074') in 0.005006 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Authorization/Editor/Auth_js.js
-  artifactKey: Guid(81e09f5ba01320943938b74903ca2f82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Authorization/Editor/Auth_js.js using Guid(81e09f5ba01320943938b74903ca2f82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2f96e1378192d1bbf9a563af1da2758') in 0.006809 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/Palletes/test2/blocks _9.asset
+  artifactKey: Guid(052e429f558633e46978492c2c2b0e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palletes/test2/blocks _9.asset using Guid(052e429f558633e46978492c2c2b0e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a366586ea4f7b73489e1e6319f8a5b6d') in 0.007458 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Packages/YandexGame/Prefabs/Ads/ErrorAdMessage.prefab
-  artifactKey: Guid(7c3fd30ab60562643a829eed36b2c5d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Prefabs/Ads/ErrorAdMessage.prefab using Guid(7c3fd30ab60562643a829eed36b2c5d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '23c9bc2c78db50d641e8eb7daa7f2202') in 0.054522 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Palletes/test2/blocks _7.asset
+  artifactKey: Guid(8c0c57e2e84d09f43b121a762da166eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palletes/test2/blocks _7.asset using Guid(8c0c57e2e84d09f43b121a762da166eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c816479fe823eb16dde54a33d1f545') in 0.005449 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 42
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Packages/YandexGame/Prefabs/Ads/Ad Notification.prefab
-  artifactKey: Guid(44b91ba5f28f4ba4d9d62f6ee52d0673) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Prefabs/Ads/Ad Notification.prefab using Guid(44b91ba5f28f4ba4d9d62f6ee52d0673) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a4ec4b326a0bc4a8adf217b1e1489dba') in 0.009942 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/YandexGame/Example/Scenes/ExampleYG.unity
-  artifactKey: Guid(e49bf7e58fdb4db4c9df51f0ddb8f327) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Example/Scenes/ExampleYG.unity using Guid(e49bf7e58fdb4db4c9df51f0ddb8f327) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1e24b293663b199fbc8060a0e5da9b33') in 0.006423 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/UnityToolbag-main/LICENSE.txt
-  artifactKey: Guid(4fb3f32c97c5d90499ea00c045a10920) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/UnityToolbag-main/LICENSE.txt using Guid(4fb3f32c97c5d90499ea00c045a10920) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '968093d38f050ec17ed501a619c40fb1') in 0.007800 seconds
+  path: Assets/Palletes/test2/test2.prefab
+  artifactKey: Guid(5e6a1ed4165612a4a961073fbc087cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palletes/test2/test2.prefab using Guid(5e6a1ed4165612a4a961073fbc087cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b613a0bb194789e053875c886ddecdd') in 0.014334 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 33
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Packages/YandexGame/Prefabs/YandexGame.prefab
-  artifactKey: Guid(caf9732433f4dc044845763962493607) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Prefabs/YandexGame.prefab using Guid(caf9732433f4dc044845763962493607) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3fefab1ffac81b3a0468b7d970e1e612') in 0.015073 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/Palletes/test2/blocks _2.asset
+  artifactKey: Guid(5e3e955145625464a8719259a6bad562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palletes/test2/blocks _2.asset using Guid(5e3e955145625464a8719259a6bad562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b43f7ae5f4849cf90eaf7ad99fc669b') in 0.007410 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Packages/YandexGame/Example/Scripts/OpenAuthorizationDialog.cs
-  artifactKey: Guid(03d6155703367b243854979962e2d980) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Example/Scripts/OpenAuthorizationDialog.cs using Guid(03d6155703367b243854979962e2d980) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e7d456bbdfe7d02ffa09887e911719c') in 0.007740 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Editor/Icons/Icon_DebuggingYG.png
-  artifactKey: Guid(ec09b4864bb99a946aded3f84de2b893) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Editor/Icons/Icon_DebuggingYG.png using Guid(ec09b4864bb99a946aded3f84de2b893) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '71f6ee4c2efe9bf843c9012d1d77b589') in 0.038008 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Packages/YandexGame/Example/Scripts/NewResultLBExample.cs
-  artifactKey: Guid(77da4e298b787504f9a35fe14840b10a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Example/Scripts/NewResultLBExample.cs using Guid(77da4e298b787504f9a35fe14840b10a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fb72b889d7e7350af01780972e531f5b') in 0.008058 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Editor/Icons/Ad.png
-  artifactKey: Guid(2904e2cded3eaaa4bbe5cea7aa81e5f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Editor/Icons/Ad.png using Guid(2904e2cded3eaaa4bbe5cea7aa81e5f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b16793db1eee24503117767e4f518773') in 0.016255 seconds
+  path: Assets/Palletes/test2/blocks _5.asset
+  artifactKey: Guid(d48da9f1a295a1c45ad33a2563165683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palletes/test2/blocks _5.asset using Guid(d48da9f1a295a1c45ad33a2563165683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ced9fc53c7d2153010cfe50dcc1eb34') in 0.004164 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/YandexGame/Example/Content/Materials/DebugViewing.mat
-  artifactKey: Guid(59cd650ae9babe14191840056255cd7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Example/Content/Materials/DebugViewing.mat using Guid(59cd650ae9babe14191840056255cd7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4e76c0e13e041e2f6b9ff87531ef353c') in 0.049033 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Packages/YandexGame/Example/Scenes/LightingSettingsYGExample.lighting
-  artifactKey: Guid(f11acf94a309a33448aca1ae885164fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Example/Scenes/LightingSettingsYGExample.lighting using Guid(f11acf94a309a33448aca1ae885164fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c665f823d3f1928b39d417c2812aab6a') in 0.017125 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/YandexGame/Example/Scripts/LanguageExample.cs
-  artifactKey: Guid(ff5483d3f3099bb46af519e62247b656) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Example/Scripts/LanguageExample.cs using Guid(ff5483d3f3099bb46af519e62247b656) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '14272e629a5d05ba89e621382a087792') in 0.006629 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Storage/Storage_yg.cs
-  artifactKey: Guid(17cbcd17e2fa5ab4ba90655d62224fc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Storage/Storage_yg.cs using Guid(17cbcd17e2fa5ab4ba90655d62224fc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '009f7f191efbc0a7def77b52f49f3c85') in 0.007761 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Packages/YandexGame/Prefabs/Ads/Timer Before Ads.prefab
-  artifactKey: Guid(35fa95bde1a56744eb9b514cef2e0af8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Prefabs/Ads/Timer Before Ads.prefab using Guid(35fa95bde1a56744eb9b514cef2e0af8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ba511c19f59fdbb3cce9fa2230c4e5a') in 0.010342 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/EnvironmentData/EnvirData_yg.cs
-  artifactKey: Guid(b99fd372a89b20047b2cb0d61455f6e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/EnvironmentData/EnvirData_yg.cs using Guid(b99fd372a89b20047b2cb0d61455f6e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8dfac83a1a54d35e8402e1a5cd50856d') in 0.007453 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/ActivityOnAuthorizationYG.cs
-  artifactKey: Guid(2c28dfb5072c53b45b9cf0382629a235) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/ActivityOnAuthorizationYG.cs using Guid(2c28dfb5072c53b45b9cf0382629a235) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '20d23805b2fdb4d136ca836abe5448c4') in 0.007684 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Leaderboard/UtilsLB.cs
-  artifactKey: Guid(b0c03e5aaed517748a16d944115fccc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Leaderboard/UtilsLB.cs using Guid(b0c03e5aaed517748a16d944115fccc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c04c945fe1a4e1c52fbcfac4d9af2302') in 0.007179 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Packages/WebGLTemplates/PluginYG/logo.png
-  artifactKey: Guid(6f4caa9335e88984cad712cb69df7ebb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/WebGLTemplates/PluginYG/logo.png using Guid(6f4caa9335e88984cad712cb69df7ebb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '69c684ea73ca1d884b2a52be663f9818') in 0.015938 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Packages/YandexGame/WorkingData/InfoYG.asset
-  artifactKey: Guid(162644796a8b0d044bce3d6fda0641e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/WorkingData/InfoYG.asset using Guid(162644796a8b0d044bce3d6fda0641e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3df7d1adf7babd6a79f1eed1e5b48d11') in 0.035049 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Packages/YandexGame/Example/Scripts/RewardedAd.cs
-  artifactKey: Guid(32d6301ad6c0c014383de7dc9c37f337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Example/Scripts/RewardedAd.cs using Guid(32d6301ad6c0c014383de7dc9c37f337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '88a64414d210212651a73771e414fa53') in 0.007412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Language/LanguageYG.cs
-  artifactKey: Guid(f34f36451b093ee4c83ad4aa5459d2ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Language/LanguageYG.cs using Guid(f34f36451b093ee4c83ad4aa5459d2ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '74ec845a0871ad6b60d9d47ec1f9818a') in 0.007944 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/InfoYG/InfoYG.cs
-  artifactKey: Guid(efa747916aa66674d96ea40ca8a480b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/InfoYG/InfoYG.cs using Guid(efa747916aa66674d96ea40ca8a480b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f0c825f0975bb504a844f0a920ba0c79') in 0.007554 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Editor/DocumentationEditor.cs
-  artifactKey: Guid(2cb8cfe741ef91e448951fced5e32681) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Editor/DocumentationEditor.cs using Guid(2cb8cfe741ef91e448951fced5e32681) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c1dcf59feaf7938c0c29d7d40d958aa') in 0.007089 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/YandexGame/Example/Scripts/ReceivingPurchaseExample.cs
-  artifactKey: Guid(d7222dd704de0df4dbaccf589c3d0267) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/Example/Scripts/ReceivingPurchaseExample.cs using Guid(d7222dd704de0df4dbaccf589c3d0267) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2956520bd79dcd2c4bc2b836f47a4914') in 0.008140 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Packages/YandexGame/DebuggingMode/Prefabs/DebuggingModeYG.prefab
-  artifactKey: Guid(6fd9bb3cd55316745918369c2b72949c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/DebuggingMode/Prefabs/DebuggingModeYG.prefab using Guid(6fd9bb3cd55316745918369c2b72949c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a9fe9030a32b6a75a310d9bb174fe37b') in 0.031607 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 690
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/UnityToolbag-main/ConditionallyVisiblePropertyDrawer/Runtime/ConditionallyVisibleAttribute.cs
-  artifactKey: Guid(6a5802bf4626c294aa90d7ed0eca4542) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/UnityToolbag-main/ConditionallyVisiblePropertyDrawer/Runtime/ConditionallyVisibleAttribute.cs using Guid(6a5802bf4626c294aa90d7ed0eca4542) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '52edff2243ce5542a80e7a655ae37ec9') in 0.006801 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/InfoYG/Editor/InfoYGEditor.cs
-  artifactKey: Guid(7afd507869c31d941aef2149638e7a6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/InfoYG/Editor/InfoYGEditor.cs using Guid(7afd507869c31d941aef2149638e7a6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f3d788b42b488153563129f58d8c26f') in 0.007987 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Editor/PostProcessBuild/ModifyIndexFile/PixelRatioMobile.cs
-  artifactKey: Guid(691640dfa19eb474584f9fafac46a85d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Editor/PostProcessBuild/ModifyIndexFile/PixelRatioMobile.cs using Guid(691640dfa19eb474584f9fafac46a85d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5896cf34954e47e222d0e4d080647ee8') in 0.006589 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Language/Editor/AutoLocalizationMasseWindow.cs
-  artifactKey: Guid(cbb854df4e27ef84a9a96d25f94d80f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Language/Editor/AutoLocalizationMasseWindow.cs using Guid(cbb854df4e27ef84a9a96d25f94d80f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9fe051d6ac22187e604e0c7d17c67594') in 0.007685 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/EnvironmentData/Editor/EnvirData_js.js
-  artifactKey: Guid(72cf57c5b2bf04b4380bc6ab48251d02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/EnvironmentData/Editor/EnvirData_js.js using Guid(72cf57c5b2bf04b4380bc6ab48251d02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '90c40821b3c96e394eb5d97e3d61568f') in 0.005793 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Storage/Editor/CloudStorage_build.cs
-  artifactKey: Guid(636544a8f3f9db342aa36c411cc32780) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Storage/Editor/CloudStorage_build.cs using Guid(636544a8f3f9db342aa36c411cc32780) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cc7a71dc62dce4f8bfb34ed040bfd5df') in 0.008154 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/UnityToolbag-main/ConditionallyVisiblePropertyDrawer/Editor/ConditionallyVisiblePropertyDrawer.cs
-  artifactKey: Guid(7eb8ce83e64b8164b8b78eb15029326d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/UnityToolbag-main/ConditionallyVisiblePropertyDrawer/Editor/ConditionallyVisiblePropertyDrawer.cs using Guid(7eb8ce83e64b8164b8b78eb15029326d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f41d7647708d0aeee4319269eca91725') in 0.008367 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Storage/Plugins/CloudStorage.jslib
-  artifactKey: Guid(f493b425868e7fb47badc1c13c76a337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Storage/Plugins/CloudStorage.jslib using Guid(f493b425868e7fb47badc1c13c76a337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '91877d295c083a9dce94d7554b24659f') in 0.008345 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Editor/Utils/DefineSymbols.cs
-  artifactKey: Guid(81e00845a563cb142aba772859940c67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Editor/Utils/DefineSymbols.cs using Guid(81e00845a563cb142aba772859940c67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '36d4a1086a356ef8f90550f3f0c489f6') in 0.008032 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Editor/Icons/Icon_ViewingAdsYG.png
-  artifactKey: Guid(5d6bf6c13902ad54e9cdbe0a54788d33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Editor/Icons/Icon_ViewingAdsYG.png using Guid(5d6bf6c13902ad54e9cdbe0a54788d33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e6962e3cd1963429e4b65e5b2812f14') in 0.012404 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Payments/Editor/Payments_build.cs
-  artifactKey: Guid(544803c8d26197347aa342bbb9950cde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Payments/Editor/Payments_build.cs using Guid(544803c8d26197347aa342bbb9950cde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '54467df6c1f9ac9104216edf0ac60a8b') in 0.006735 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Language/Editor/CSVFileEditorWindow.cs
-  artifactKey: Guid(27ee5bc42915ab54da807b1e05eba505) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Language/Editor/CSVFileEditorWindow.cs using Guid(27ee5bc42915ab54da807b1e05eba505) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '226b3d9c4b1eceb7cec661b3253ad5a2') in 0.007045 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/Editor/PostProcessBuild/ModifyIndexFile/SaveQuitGame.js
-  artifactKey: Guid(65bfac82b24146c4d825f2ef28c09b56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/Editor/PostProcessBuild/ModifyIndexFile/SaveQuitGame.js using Guid(65bfac82b24146c4d825f2ef28c09b56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e69474b36811f44aa6c1466a25a7e051') in 0.006095 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Packages/YandexGame/ScriptsYG/GameReadyAPI/Plugins/GameReadyAPI.jslib
-  artifactKey: Guid(357ae29480fcc144293d927269bda9e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Packages/YandexGame/ScriptsYG/GameReadyAPI/Plugins/GameReadyAPI.jslib using Guid(357ae29480fcc144293d927269bda9e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4351695dbc7657a820e10d57fb2aa9eb') in 0.006702 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
 AssetImportWorker is now disconnected from the server
